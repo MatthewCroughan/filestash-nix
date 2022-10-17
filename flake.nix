@@ -49,7 +49,8 @@
         checks = {
           filestash = pkgs.callPackage ./nix/filestash-vmtest.nix { nixosModule = self.nixosModule; };
         };
-        packages = {
+        packages = rec {
+          default = filestash;
           filestash = pkgs.callPackage ./pkgs/filestash {
             inherit dream2nix pkgs filestash-src;
           };
