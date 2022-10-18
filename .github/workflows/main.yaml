@@ -1,7 +1,7 @@
 name: "Update Flake Inputs"
 on:
   schedule:
-    - cron: '*/10 * * * *'
+    - cron: '*/40 * * * *'
 
 jobs:
   update:
