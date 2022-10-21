@@ -255,7 +255,7 @@
     "autoprefixer": {
       "6.7.7": [
         [ "browserslist", "1.7.7" ],
-        [ "caniuse-db", "1.0.30001421" ],
+        [ "caniuse-db", "1.0.30001423" ],
         [ "normalize-range", "0.1.2" ],
         [ "num2fraction", "1.2.2" ],
         [ "postcss", "5.2.18" ],
@@ -909,7 +909,7 @@
     },
     "browserslist": {
       "1.7.7": [
-        [ "caniuse-db", "1.0.30001421" ],
+        [ "caniuse-db", "1.0.30001423" ],
         [ "electron-to-chromium", "1.4.284" ]
       ]
     },
@@ -971,7 +971,7 @@
     "caniuse-api": {
       "1.6.1": [
         [ "browserslist", "1.7.7" ],
-        [ "caniuse-db", "1.0.30001421" ],
+        [ "caniuse-db", "1.0.30001423" ],
         [ "lodash.memoize", "4.1.2" ],
         [ "lodash.uniq", "4.5.0" ]
       ]
@@ -1675,7 +1675,7 @@
     },
     "file-loader": {
       "6.2.0": [
-        [ "loader-utils", "2.0.2" ],
+        [ "loader-utils", "2.0.3" ],
         [ "schema-utils", "3.1.1" ]
       ]
     },
@@ -2338,7 +2338,7 @@
         [ "emojis-list", "3.0.0" ],
         [ "json5", "1.0.1" ]
       ],
-      "2.0.2": [
+      "2.0.3": [
         [ "big.js", "5.2.2" ],
         [ "emojis-list", "3.0.0" ],
         [ "json5", "2.2.1" ]
@@ -5494,10 +5494,10 @@
       }
     },
     "caniuse-db": {
-      "1.0.30001421": {
-        "hash": "sha512-sUDwtz7tdLs6arE6hAvf5rDvb7jxa14ii9JguDHLUvQcdFKX0LuH5qgGUoBzVGMsRLIf2D/9Y+N+GBTqtQKsTA==",
+      "1.0.30001423": {
+        "hash": "sha512-9qEsEMDzhC2qBCs4if1l3gkW/vdeXMyz0IwnzSqWORq48jSlYuQGorrnAUjqZKdFhEA72jCnW6LpODPX7Urm2w==",
         "type": "http",
-        "url": "https://registry.npmjs.org/caniuse-db/-/caniuse-db-1.0.30001421.tgz"
+        "url": "https://registry.npmjs.org/caniuse-db/-/caniuse-db-1.0.30001423.tgz"
       }
     },
     "caseless": {
@@ -7873,10 +7873,10 @@
         "type": "http",
         "url": "https://registry.npmjs.org/loader-utils/-/loader-utils-1.4.0.tgz"
       },
-      "2.0.2": {
-        "hash": "sha512-TM57VeHptv569d/GKh6TAYdzKblwDNiumOdkFnejjD0XwTH87K90w3O7AiJRqdQoXygvi1VQTJTLGhJl7WqA7A==",
+      "2.0.3": {
+        "hash": "sha512-THWqIsn8QRnvLl0shHYVBN9syumU8pYWEHPTmkiVGd+7K5eFNVSY6AJhRvgGF70gg1Dz+l/k8WicvFCxdEs60A==",
         "type": "http",
-        "url": "https://registry.npmjs.org/loader-utils/-/loader-utils-2.0.2.tgz"
+        "url": "https://registry.npmjs.org/loader-utils/-/loader-utils-2.0.3.tgz"
       }
     },
     "locate-path": {
