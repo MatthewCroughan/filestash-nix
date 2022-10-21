@@ -59,11 +59,11 @@
     "devshell": {
       "flake": false,
       "locked": {
-        "lastModified": 1653917170,
-        "narHash": "sha256-FyxOnEE/V4PNEcMU62ikY4FfYPo349MOhMM97HS0XEo=",
+        "lastModified": 1663445644,
+        "narHash": "sha256-+xVlcK60x7VY1vRJbNUEAHi17ZuoQxAIH4S4iUFUGBA=",
         "owner": "numtide",
         "repo": "devshell",
-        "rev": "fc7a3e3adde9bbcab68af6d1e3c6eb738e296a92",
+        "rev": "e3dc3e21594fe07bdb24bdf1c8657acaa4cb8f66",
         "type": "github"
       },
       "original": {
@@ -86,11 +86,11 @@
         "pre-commit-hooks": "pre-commit-hooks"
       },
       "locked": {
-        "lastModified": 1666275408,
-        "narHash": "sha256-6ujTJLPrmWM3TeD88iAPmKthJs3yX8BWTPUcxlW6Gh4=",
+        "lastModified": 1666385696,
+        "narHash": "sha256-+I4+Nc4Rg1jNjnI3IGxXMyl/bIY2SufoM7x4WWV1qoM=",
         "owner": "nix-community",
         "repo": "dream2nix",
-        "rev": "74143c8c62eca1e07f4895d2c1cd2fe08803c8f6",
+        "rev": "421c623275dd9a8684ab3bfd6d78b9a1bba16923",
         "type": "github"
       },
       "original": {
