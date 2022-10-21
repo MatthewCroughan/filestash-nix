@@ -30,29 +30,13 @@
         };
       };
       perSystem = { config, self', inputs', pkgs, system, ... }: {
-        apps = {
-          generate-package-lock = let
-            program = toString (pkgs.writeShellScript "write-package-lock.sh" ''
-              TMPDIR=$(mktemp -d)
-              cp -r --no-preserve=mode "${filestash-src}" "$TMPDIR/project"
-              cd "$TMPDIR/project"
-              ${pkgs.nodejs-14_x}/bin/npm i --package-lock-only
-              cd -
-              cp "$TMPDIR/project/package-lock.json" .
-              rm -rf "$TMPDIR"
-            '');
-          in {
-            type = "app";
-            inherit program;
-          };
-        };
         checks = {
           filestash = pkgs.callPackage ./nix/filestash-vmtest.nix { nixosModule = self.nixosModule; };
         };
         packages = rec {
           default = filestash;
           filestash = pkgs.callPackage ./pkgs/filestash {
-            inherit dream2nix pkgs filestash-src;
+            inherit dream2nix pkgs filestash-src self;
           };
         };
       };

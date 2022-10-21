@@ -24,10 +24,9 @@ jobs:
       - name: update-package-lock
         run: |
           set -xeuo pipefail
-          nix run .#generate-package-lock
-          mv package-lock.json pkgs/filestash/package-lock.json
-          git add ./pkgs/filestash/package-lock.json
-          git commit -m "filestash: update package-lock.json"
+          nix run .#filestash.passthru.update
+          git add ./dream2nix-packages/filestash/dream-lock.json
+          git commit -m "filestash: update dream-lock.json"
       - name: build-and-check-flake
         run: |
           set -xeuo pipefail

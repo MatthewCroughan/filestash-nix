@@ -98,3 +98,23 @@ reproducibly:
 
 The test could be expanded in the future to perform more functions and test the
 software more thoroughly.
+
+## Development
+
+### Updating the Filestash flake input
+
+This does not require any contributions, as it is automated by CI, but below is
+an explanation of how it works.
+
+Because upstream do not provide a `package-lock.json`, we cannot use dream2nix
+directly on it. So, we use dream2nix to provide a `dream-lock.json` instead,
+effectively vendoring the upstream's missing lock feature. I have added the
+"resolve" script which dream2nix provides to the `passthru` set of the
+`filestash` package in this flake, it is available at
+`filestash.passthru.updateScript`
+
+To update:
+
+1. `nix flake lock --update-input filestash`
+2. `nix run .#filestash.passthru.update`
+

@@ -1,14 +1,16 @@
-{ dream2nix, stdenv, python, runCommand, pkgs, filestash-src, glib, vips, libraw, pkg-config, buildGoModule }:
+{ dream2nix, stdenv, self, python, runCommand, pkgs, filestash-src, glib, vips, libraw, pkg-config, buildGoModule }:
 let
-  filestash-src-with-lock = runCommand "filestash-src-with-lock" {} ''
-    cp -r --no-preserve=mode ${filestash-src} $out
-    cp ${./package-lock.json} $out/package-lock.json
-  '';
-  js = (dream2nix.lib.makeFlakeOutputs {
+  updateScript = (dream2nix.lib.makeFlakeOutputs {
     inherit pkgs;
-    config.projectRoot = filestash-src-with-lock;
-    source = filestash-src-with-lock;
-    settings = [ { subsystemInfo.nodejs = "14"; } ];
+    config.projectRoot = filestash-src;
+    source = filestash-src;
+    settings = [ { subsystemInfo.nodejs = "14"; subsystemInfo.npmArgs = "--legacy-peer-deps"; } ];
+  }).packages.${pkgs.hostPlatform.system}.filestash.resolve;
+  js = (dream2nix.lib.${pkgs.hostPlatform.system}.makeOutputsForDreamLock {
+    dreamLock = ../../dream2nix-packages/filestash/dream-lock.json;
+    sourceOverrides = oldSources: {
+      "filestash"."0.0.0" = filestash-src;
+    };
     packageOverrides = {
       filestash = {
         add-pre-build-steps = {
@@ -34,7 +36,7 @@ let
         };
       };
     };
-  }).packages.${pkgs.hostPlatform.system}.filestash;
+  }).packages.filestash;
   go = buildGoModule rec {
     name = "filestash-golang";
     src = filestash-src;
@@ -98,6 +100,7 @@ let
   };
 in
 pkgs.stdenv.mkDerivation {
+  passthru.update = updateScript;
   name = "filestash";
   phases = [ "InstallPhase" ];
   InstallPhase = ''
