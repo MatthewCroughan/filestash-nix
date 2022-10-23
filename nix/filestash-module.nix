@@ -20,17 +20,18 @@ in {
   config = lib.mkIf cfg.enable {
     systemd = {
       tmpfiles.rules = [
-        "L+ ${cfg.dataDir}/public 0700 - - - ${cfg.package}/public"
+        "d  ${cfg.dataDir}/data        0771 - - - -"
+        "d  ${cfg.dataDir}/data/state  0771 - - - -"
+        "L+ ${cfg.dataDir}/data/public 0771 - - - ${cfg.package}/data/public"
       ];
       services.filestash = {
         description = "A modern web client for SFTP and more";
         wantedBy = [ "multi-user.target" ];
         wants = [ "network-online.target" ];
         after = [ "network-online.target" ];
-        environment.WORK_DIR = cfg.dataDir;
         serviceConfig = {
           Type = "simple";
-          ExecStart = "${lib.getExe cfg.package}";
+          ExecStart = "${pkgs.bash}/bin/bash -c 'WORK_DIR=$STATE_DIRECTORY ${lib.getExe cfg.package}'";
           Restart = "always";
           DynamicUser = true;
           StateDirectory = baseNameOf cfg.dataDir;
