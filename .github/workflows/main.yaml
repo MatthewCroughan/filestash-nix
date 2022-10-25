@@ -26,7 +26,7 @@ jobs:
           set -xeuo pipefail
           nix run .#filestash.passthru.update
           git add ./dream2nix-packages/filestash/dream-lock.json
-          git commit -m "filestash: update dream-lock.json"
+          git commit -m "filestash: update dream-lock.json" || true # ignore error if nothing to commit
       - name: build-and-check-flake
         run: |
           set -xeuo pipefail
