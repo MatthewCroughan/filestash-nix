@@ -255,7 +255,7 @@
     "autoprefixer": {
       "6.7.7": [
         [ "browserslist", "1.7.7" ],
-        [ "caniuse-db", "1.0.30001423" ],
+        [ "caniuse-db", "1.0.30001425" ],
         [ "normalize-range", "0.1.2" ],
         [ "num2fraction", "1.2.2" ],
         [ "postcss", "5.2.18" ],
@@ -909,7 +909,7 @@
     },
     "browserslist": {
       "1.7.7": [
-        [ "caniuse-db", "1.0.30001423" ],
+        [ "caniuse-db", "1.0.30001425" ],
         [ "electron-to-chromium", "1.4.284" ]
       ]
     },
@@ -971,7 +971,7 @@
     "caniuse-api": {
       "1.6.1": [
         [ "browserslist", "1.7.7" ],
-        [ "caniuse-db", "1.0.30001423" ],
+        [ "caniuse-db", "1.0.30001425" ],
         [ "lodash.memoize", "4.1.2" ],
         [ "lodash.uniq", "4.5.0" ]
       ]
@@ -1564,7 +1564,7 @@
     },
     "espree": {
       "9.4.0": [
-        [ "acorn", "8.8.0" ],
+        [ "acorn", "8.8.1" ],
         [ "acorn-jsx", "5.3.2" ],
         [ "eslint-visitor-keys", "3.3.0" ]
       ]
@@ -4249,10 +4249,10 @@
         "type": "http",
         "url": "https://registry.npmjs.org/acorn/-/acorn-7.4.1.tgz"
       },
-      "8.8.0": {
-        "hash": "sha512-QOxyigPVrpZ2GXT+PFyZTl6TtOFc5egxHIP9IlQ+RbupQuX4RkT/Bee4/kQuC02Xkzg84JcT7oLYtDIQxp+v7w==",
+      "8.8.1": {
+        "hash": "sha512-7zFpHzhnqYKrkYdUjF1HI1bzd0VygEGX8lFk4k5zVMqHEoES+P+7TKI+EvLO9WVMJ8eekdO0aDEK044xTXwPPA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/acorn/-/acorn-8.8.0.tgz"
+        "url": "https://registry.npmjs.org/acorn/-/acorn-8.8.1.tgz"
       }
     },
     "acorn-dynamic-import": {
@@ -5466,10 +5466,10 @@
       }
     },
     "caniuse-db": {
-      "1.0.30001423": {
-        "hash": "sha512-9qEsEMDzhC2qBCs4if1l3gkW/vdeXMyz0IwnzSqWORq48jSlYuQGorrnAUjqZKdFhEA72jCnW6LpODPX7Urm2w==",
+      "1.0.30001425": {
+        "hash": "sha512-6JWlFQDKXgGwknC5C3f1jDEKOLZwEKs1ki0uUHv1jQ4j9uMBY14dyCDtIZa3NA2OFSbihOITUtRA1of6Cs97Yg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/caniuse-db/-/caniuse-db-1.0.30001423.tgz"
+        "url": "https://registry.npmjs.org/caniuse-db/-/caniuse-db-1.0.30001425.tgz"
       }
     },
     "caseless": {
