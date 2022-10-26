@@ -12,24 +12,8 @@ let
       "filestash"."0.0.0" = filestash-src;
     };
     packageOverrides = {
-      filestash = {
-        add-pre-build-steps = {
-          preBuild = ''
-            cd $out
-            mv $sourceRoot $out/src
-            ln -s $out/src $sourceRoot
-            cd $out/src
-          '';
-          postBuild = ''
-            rm $sourceRoot
-            mv $out/src $sourceRoot
-          '';
-          dontPatchELF = true;
-        };
-      };
       node-sass = {
         add-pre-build-steps = {
-          dontPatchELF = true;
           buildInputs = old: old ++ [
             pkgs.python
           ];
