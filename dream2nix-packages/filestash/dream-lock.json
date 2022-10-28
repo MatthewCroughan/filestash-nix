@@ -54,7 +54,7 @@
       ]
     },
     "@babel/runtime": {
-      "7.19.4": [
+      "7.20.0": [
         [ "regenerator-runtime", "0.13.10" ]
       ]
     },
@@ -97,7 +97,7 @@
     },
     "@videojs/http-streaming": {
       "2.14.3": [
-        [ "@babel/runtime", "7.19.4" ],
+        [ "@babel/runtime", "7.20.0" ],
         [ "@videojs/vhs-utils", "3.0.5" ],
         [ "aes-decrypter", "3.1.3" ],
         [ "global", "4.4.0" ],
@@ -109,14 +109,14 @@
     },
     "@videojs/vhs-utils": {
       "3.0.5": [
-        [ "@babel/runtime", "7.19.4" ],
+        [ "@babel/runtime", "7.20.0" ],
         [ "global", "4.4.0" ],
         [ "url-toolkit", "2.2.5" ]
       ]
     },
     "@videojs/xhr": {
       "2.6.0": [
-        [ "@babel/runtime", "7.19.4" ],
+        [ "@babel/runtime", "7.20.0" ],
         [ "global", "4.4.0" ],
         [ "is-function", "1.0.2" ]
       ]
@@ -137,7 +137,7 @@
         [ "pkcs7", "0.2.3" ]
       ],
       "3.1.3": [
-        [ "@babel/runtime", "7.19.4" ],
+        [ "@babel/runtime", "7.20.0" ],
         [ "@videojs/vhs-utils", "3.0.5" ],
         [ "global", "4.4.0" ],
         [ "pkcs7", "1.0.4" ]
@@ -255,7 +255,7 @@
     "autoprefixer": {
       "6.7.7": [
         [ "browserslist", "1.7.7" ],
-        [ "caniuse-db", "1.0.30001425" ],
+        [ "caniuse-db", "1.0.30001426" ],
         [ "normalize-range", "0.1.2" ],
         [ "num2fraction", "1.2.2" ],
         [ "postcss", "5.2.18" ],
@@ -909,7 +909,7 @@
     },
     "browserslist": {
       "1.7.7": [
-        [ "caniuse-db", "1.0.30001425" ],
+        [ "caniuse-db", "1.0.30001426" ],
         [ "electron-to-chromium", "1.4.284" ]
       ]
     },
@@ -971,7 +971,7 @@
     "caniuse-api": {
       "1.6.1": [
         [ "browserslist", "1.7.7" ],
-        [ "caniuse-db", "1.0.30001425" ],
+        [ "caniuse-db", "1.0.30001426" ],
         [ "lodash.memoize", "4.1.2" ],
         [ "lodash.uniq", "4.5.0" ]
       ]
@@ -1370,7 +1370,7 @@
     },
     "dom-helpers": {
       "3.4.0": [
-        [ "@babel/runtime", "7.19.4" ]
+        [ "@babel/runtime", "7.20.0" ]
       ]
     },
     "dom-serializer": {
@@ -2000,7 +2000,7 @@
     },
     "history": {
       "4.10.1": [
-        [ "@babel/runtime", "7.19.4" ],
+        [ "@babel/runtime", "7.20.0" ],
         [ "loose-envify", "1.4.0" ],
         [ "resolve-pathname", "3.0.0" ],
         [ "tiny-invariant", "1.3.1" ],
@@ -2357,7 +2357,7 @@
     },
     "m3u8-parser": {
       "4.7.1": [
-        [ "@babel/runtime", "7.19.4" ],
+        [ "@babel/runtime", "7.20.0" ],
         [ "@videojs/vhs-utils", "3.0.5" ],
         [ "global", "4.4.0" ]
       ]
@@ -2483,7 +2483,7 @@
     },
     "mpd-parser": {
       "0.21.1": [
-        [ "@babel/runtime", "7.19.4" ],
+        [ "@babel/runtime", "7.20.0" ],
         [ "@videojs/vhs-utils", "3.0.5" ],
         [ "@xmldom/xmldom", "0.7.6" ],
         [ "global", "4.4.0" ]
@@ -2491,7 +2491,7 @@
     },
     "mux.js": {
       "6.0.1": [
-        [ "@babel/runtime", "7.19.4" ],
+        [ "@babel/runtime", "7.20.0" ],
         [ "global", "4.4.0" ]
       ]
     },
@@ -2798,7 +2798,7 @@
     },
     "pkcs7": {
       "1.0.4": [
-        [ "@babel/runtime", "7.19.4" ]
+        [ "@babel/runtime", "7.20.0" ]
       ]
     },
     "pkg-dir": {
@@ -3136,7 +3136,7 @@
     },
     "react-pdf": {
       "5.3.2": [
-        [ "@babel/runtime", "7.19.4" ],
+        [ "@babel/runtime", "7.20.0" ],
         [ "file-loader", "6.2.0" ],
         [ "make-cancellable-promise", "1.1.0" ],
         [ "make-event-props", "1.3.0" ],
@@ -3148,7 +3148,7 @@
     },
     "react-router": {
       "5.3.4": [
-        [ "@babel/runtime", "7.19.4" ],
+        [ "@babel/runtime", "7.20.0" ],
         [ "history", "4.10.1" ],
         [ "hoist-non-react-statics", "3.3.2" ],
         [ "loose-envify", "1.4.0" ],
@@ -3161,7 +3161,7 @@
     },
     "react-router-dom": {
       "5.3.4": [
-        [ "@babel/runtime", "7.19.4" ],
+        [ "@babel/runtime", "7.20.0" ],
         [ "history", "4.10.1" ],
         [ "loose-envify", "1.4.0" ],
         [ "prop-types", "15.8.1" ],
@@ -3897,7 +3897,7 @@
         [ "xhr", "2.4.0" ]
       ],
       "7.20.3": [
-        [ "@babel/runtime", "7.19.4" ],
+        [ "@babel/runtime", "7.20.0" ],
         [ "@videojs/http-streaming", "2.14.3" ],
         [ "@videojs/vhs-utils", "3.0.5" ],
         [ "@videojs/xhr", "2.6.0" ],
@@ -4122,10 +4122,10 @@
       }
     },
     "@babel/runtime": {
-      "7.19.4": {
-        "hash": "sha512-EXpLCrk55f+cYqmHsSR+yD/0gAIMxxA9QK9lnQWzhMCvt+YmoBN7Zx94s++Kv0+unHk39vxNO8t+CMA2WSS3wA==",
+      "7.20.0": {
+        "hash": "sha512-NDYdls71fTXoU8TZHfbBWg7DiZfNzClcKui/+kyi6ppD2L1qnWW3VV6CjtaBXSUGGhiTWJ6ereOIkUvenif66Q==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@babel/runtime/-/runtime-7.19.4.tgz"
+        "url": "https://registry.npmjs.org/@babel/runtime/-/runtime-7.20.0.tgz"
       }
     },
     "@eslint/eslintrc": {
@@ -5466,10 +5466,10 @@
       }
     },
     "caniuse-db": {
-      "1.0.30001425": {
-        "hash": "sha512-6JWlFQDKXgGwknC5C3f1jDEKOLZwEKs1ki0uUHv1jQ4j9uMBY14dyCDtIZa3NA2OFSbihOITUtRA1of6Cs97Yg==",
+      "1.0.30001426": {
+        "hash": "sha512-TavCzxeIqAKxepRJlyhbDm1YPWMzmI9+yf+brSz9uHLk0G35dowpI/1oxaSDOvBuuJRPg2KYeqlSJDxfXKp9kw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/caniuse-db/-/caniuse-db-1.0.30001425.tgz"
+        "url": "https://registry.npmjs.org/caniuse-db/-/caniuse-db-1.0.30001426.tgz"
       }
     },
     "caseless": {
