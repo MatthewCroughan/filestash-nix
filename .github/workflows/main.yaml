@@ -9,6 +9,7 @@ jobs:
     steps:
       - uses: cachix/install-nix-action@v17
         with:
+          extra_nix_config: "system-features = nixos-test benchmark big-parallel kvm"
           install_url: https://github.com/numtide/nix-unstable-installer/releases/download/nix-2.12.0pre20221014_3093bd3/install
       - uses: actions/checkout@v3
         with:
