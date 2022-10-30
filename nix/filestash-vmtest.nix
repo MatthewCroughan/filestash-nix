@@ -17,6 +17,7 @@ nixosTest {
     server.wait_for_unit("multi-user.target")
 
     server.wait_for_unit("filestash.service")
+    server.sleep(3)
 
     with subtest("Check that the Filestash webserver can be reached."):
         assert "Filestash" in client.succeed(
