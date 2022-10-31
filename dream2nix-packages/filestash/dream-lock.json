@@ -2485,7 +2485,7 @@
       "0.21.1": [
         [ "@babel/runtime", "7.20.0" ],
         [ "@videojs/vhs-utils", "3.0.5" ],
-        [ "@xmldom/xmldom", "0.7.7" ],
+        [ "@xmldom/xmldom", "0.7.8" ],
         [ "global", "4.4.0" ]
       ]
     },
@@ -4213,10 +4213,10 @@
       }
     },
     "@xmldom/xmldom": {
-      "0.7.7": {
-        "hash": "sha512-RwEdIYho2kjbSZ7fpvhkHy5wk1Y3x0O6e/EHL3/SoiAfFWH+yhV2/XZQvsBoAeGRNFwgScJS/gRZv+uIwoj7yA==",
+      "0.7.8": {
+        "hash": "sha512-PrJx38EfpitFhwmILRl37jAdBlsww6AZ6rRVK4QS7T7RHLhX7mSs647sTmgr9GIxe3qjXdesmomEgbgaokrVFg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@xmldom/xmldom/-/xmldom-0.7.7.tgz"
+        "url": "https://registry.npmjs.org/@xmldom/xmldom/-/xmldom-0.7.8.tgz"
       }
     },
     "abbrev": {
