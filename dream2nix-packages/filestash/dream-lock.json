@@ -220,7 +220,7 @@
       ]
     },
     "array.prototype.reduce": {
-      "1.0.4": [
+      "1.0.5": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
         [ "es-abstract", "1.20.4" ],
@@ -255,7 +255,7 @@
     "autoprefixer": {
       "6.7.7": [
         [ "browserslist", "1.7.7" ],
-        [ "caniuse-db", "1.0.30001429" ],
+        [ "caniuse-db", "1.0.30001430" ],
         [ "normalize-range", "0.1.2" ],
         [ "num2fraction", "1.2.2" ],
         [ "postcss", "5.2.18" ],
@@ -909,7 +909,7 @@
     },
     "browserslist": {
       "1.7.7": [
-        [ "caniuse-db", "1.0.30001429" ],
+        [ "caniuse-db", "1.0.30001430" ],
         [ "electron-to-chromium", "1.4.284" ]
       ]
     },
@@ -971,7 +971,7 @@
     "caniuse-api": {
       "1.6.1": [
         [ "browserslist", "1.7.7" ],
-        [ "caniuse-db", "1.0.30001429" ],
+        [ "caniuse-db", "1.0.30001430" ],
         [ "lodash.memoize", "4.1.2" ],
         [ "lodash.uniq", "4.5.0" ]
       ]
@@ -2654,7 +2654,7 @@
     },
     "object.getownpropertydescriptors": {
       "2.1.4": [
-        [ "array.prototype.reduce", "1.0.4" ],
+        [ "array.prototype.reduce", "1.0.5" ],
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
         [ "es-abstract", "1.20.4" ]
@@ -4488,10 +4488,10 @@
       }
     },
     "array.prototype.reduce": {
-      "1.0.4": {
-        "hash": "sha512-WnM+AjG/DvLRLo4DDl+r+SvCzYtD2Jd9oeBYMcEaI7t3fFrHY9M53/wdLcTvmZNQ70IU6Htj0emFkZ5TS+lrdw==",
+      "1.0.5": {
+        "hash": "sha512-kDdugMl7id9COE8R7MHF5jWk7Dqt/fs4Pv+JXoICnYwqpjjjbUurz6w5fT5IG6brLdJhv6/VoHB0H7oyIBXd+Q==",
         "type": "http",
-        "url": "https://registry.npmjs.org/array.prototype.reduce/-/array.prototype.reduce-1.0.4.tgz"
+        "url": "https://registry.npmjs.org/array.prototype.reduce/-/array.prototype.reduce-1.0.5.tgz"
       }
     },
     "asap": {
@@ -5466,10 +5466,10 @@
       }
     },
     "caniuse-db": {
-      "1.0.30001429": {
-        "hash": "sha512-N1xHd7Gjcg3hwpGvZI8A4dxXZ8Attn2+OHTd7DbzHpZDS+ITmIP651bt6TgNxQkcJ/H3uWDbUxoWvxU5bdDJbg==",
+      "1.0.30001430": {
+        "hash": "sha512-CUqAjQhmMVW2+V5gsAxLahhaXnsAnpbAsA+LW/8LKo/yPeg/Vs+UvXaerAEzzdb6cwaUONrRF7i3BcekX35pnQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/caniuse-db/-/caniuse-db-1.0.30001429.tgz"
+        "url": "https://registry.npmjs.org/caniuse-db/-/caniuse-db-1.0.30001430.tgz"
       }
     },
     "caseless": {
