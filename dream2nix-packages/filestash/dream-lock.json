@@ -62,7 +62,7 @@
       "1.3.3": [
         [ "ajv", "6.12.6" ],
         [ "debug", "4.3.4" ],
-        [ "espree", "9.4.0" ],
+        [ "espree", "9.4.1" ],
         [ "globals", "13.17.0" ],
         [ "ignore", "5.2.0" ],
         [ "import-fresh", "3.3.0" ],
@@ -1501,7 +1501,7 @@
         [ "eslint-scope", "7.1.1" ],
         [ "eslint-utils", "3.0.0" ],
         [ "eslint-visitor-keys", "3.3.0" ],
-        [ "espree", "9.4.0" ],
+        [ "espree", "9.4.1" ],
         [ "esquery", "1.4.0" ],
         [ "esutils", "2.0.3" ],
         [ "fast-deep-equal", "3.1.3" ],
@@ -1537,7 +1537,7 @@
         [ "estraverse", "5.3.0" ],
         [ "jsx-ast-utils", "3.3.3" ],
         [ "minimatch", "3.1.2" ],
-        [ "object.entries", "1.1.5" ],
+        [ "object.entries", "1.1.6" ],
         [ "object.fromentries", "2.0.5" ],
         [ "object.hasown", "1.1.1" ],
         [ "object.values", "1.1.5" ],
@@ -1563,7 +1563,7 @@
       ]
     },
     "espree": {
-      "9.4.0": [
+      "9.4.1": [
         [ "acorn", "8.8.1" ],
         [ "acorn-jsx", "5.3.2" ],
         [ "eslint-visitor-keys", "3.3.0" ]
@@ -2639,7 +2639,7 @@
       ]
     },
     "object.entries": {
-      "1.1.5": [
+      "1.1.6": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
         [ "es-abstract", "1.20.4" ]
@@ -6392,10 +6392,10 @@
       }
     },
     "espree": {
-      "9.4.0": {
-        "hash": "sha512-DQmnRpLj7f6TgN/NYb0MTzJXL+vJF9h3pHy4JhCIs3zwcgez8xmGg3sXHcEO97BrmO2OSvCwMdfdlyl+E9KjOw==",
+      "9.4.1": {
+        "hash": "sha512-XwctdmTO6SIvCzd9810yyNzIrOrqNYV9Koizx4C/mRhf9uq0o4yHoCEU/670pOxOL/MSraektvSAji79kX90Vg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/espree/-/espree-9.4.0.tgz"
+        "url": "https://registry.npmjs.org/espree/-/espree-9.4.1.tgz"
       }
     },
     "esprima": {
@@ -8386,10 +8386,10 @@
       }
     },
     "object.entries": {
-      "1.1.5": {
-        "hash": "sha512-TyxmjUoZggd4OrrU1W66FMDG6CuqJxsFvymeyXI51+vQLN67zYfZseptRge703kKQdo4uccgAKebXFcRCzk4+g==",
+      "1.1.6": {
+        "hash": "sha512-leTPzo4Zvg3pmbQ3rDK69Rl8GQvIqMWubrkxONG9/ojtFE2rD9fjMKfSI5BxW3osRH1m6VdzmqK8oAY9aT4x5w==",
         "type": "http",
-        "url": "https://registry.npmjs.org/object.entries/-/object.entries-1.1.5.tgz"
+        "url": "https://registry.npmjs.org/object.entries/-/object.entries-1.1.6.tgz"
       }
     },
     "object.fromentries": {
