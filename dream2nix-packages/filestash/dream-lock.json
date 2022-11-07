@@ -35,7 +35,7 @@
       ]
     },
     "string.prototype.trimend": {
-      "1.0.5": [
+      "1.0.6": [
         [ "es-abstract", "1.20.4" ]
       ]
     },
@@ -1463,7 +1463,7 @@
         [ "object.assign", "4.1.4" ],
         [ "regexp.prototype.flags", "1.4.3" ],
         [ "safe-regex-test", "1.0.0" ],
-        [ "string.prototype.trimend", "1.0.5" ],
+        [ "string.prototype.trimend", "1.0.6" ],
         [ "string.prototype.trimstart", "1.0.5" ],
         [ "unbox-primitive", "1.0.2" ]
       ]
@@ -1544,7 +1544,7 @@
         [ "prop-types", "15.8.1" ],
         [ "resolve", "2.0.0-next.4" ],
         [ "semver", "6.3.0" ],
-        [ "string.prototype.matchall", "4.0.7" ]
+        [ "string.prototype.matchall", "4.0.8" ]
       ]
     },
     "eslint-scope": {
@@ -3633,7 +3633,7 @@
       ]
     },
     "string.prototype.matchall": {
-      "4.0.7": [
+      "4.0.8": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
         [ "es-abstract", "1.20.4" ],
@@ -3645,7 +3645,7 @@
       ]
     },
     "string.prototype.trimend": {
-      "1.0.5": [
+      "1.0.6": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
         [ "es-abstract", "1.20.4" ]
@@ -10035,17 +10035,17 @@
       }
     },
     "string.prototype.matchall": {
-      "4.0.7": {
-        "hash": "sha512-f48okCX7JiwVi1NXCVWcFnZgADDC/n2vePlQ/KUCNqCikLLilQvwjMO8+BHVKvgzH0JB0J9LEPgxOGT02RoETg==",
+      "4.0.8": {
+        "hash": "sha512-6zOCOcJ+RJAQshcTvXPHoxoQGONa3e/Lqx90wUA+wEzX78sg5Bo+1tQo4N0pohS0erG9qtCqJDjNCQBjeWVxyg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/string.prototype.matchall/-/string.prototype.matchall-4.0.7.tgz"
+        "url": "https://registry.npmjs.org/string.prototype.matchall/-/string.prototype.matchall-4.0.8.tgz"
       }
     },
     "string.prototype.trimend": {
-      "1.0.5": {
-        "hash": "sha512-I7RGvmjV4pJ7O3kdf+LXFpVfdNOxtCW/2C8f6jNiW4+PQchwxkCDzlk1/7p+Wl4bqFIZeF47qAHXLuHHWKAxog==",
+      "1.0.6": {
+        "hash": "sha512-JySq+4mrPf9EsDBEDYMOb/lM7XQLulwg5R/m1r0PXEFqrV0qHvl58sdTilSXtKOflCsK2E8jxf+GKC0T07RWwQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/string.prototype.trimend/-/string.prototype.trimend-1.0.5.tgz"
+        "url": "https://registry.npmjs.org/string.prototype.trimend/-/string.prototype.trimend-1.0.6.tgz"
       }
     },
     "string.prototype.trimstart": {
