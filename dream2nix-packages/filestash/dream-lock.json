@@ -1539,8 +1539,8 @@
         [ "minimatch", "3.1.2" ],
         [ "object.entries", "1.1.6" ],
         [ "object.fromentries", "2.0.6" ],
-        [ "object.hasown", "1.1.1" ],
-        [ "object.values", "1.1.5" ],
+        [ "object.hasown", "1.1.2" ],
+        [ "object.values", "1.1.6" ],
         [ "prop-types", "15.8.1" ],
         [ "resolve", "2.0.0-next.4" ],
         [ "semver", "6.3.0" ],
@@ -2661,7 +2661,7 @@
       ]
     },
     "object.hasown": {
-      "1.1.1": [
+      "1.1.2": [
         [ "define-properties", "1.1.4" ],
         [ "es-abstract", "1.20.4" ]
       ]
@@ -2672,7 +2672,7 @@
       ]
     },
     "object.values": {
-      "1.1.5": [
+      "1.1.6": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
         [ "es-abstract", "1.20.4" ]
@@ -8407,10 +8407,10 @@
       }
     },
     "object.hasown": {
-      "1.1.1": {
-        "hash": "sha512-LYLe4tivNQzq4JdaWW6WO3HMZZJWzkkH8fnI6EebWl0VZth2wL2Lovm74ep2/gZzlaTdV62JZHEqHQ2yVn8Q/A==",
+      "1.1.2": {
+        "hash": "sha512-B5UIT3J1W+WuWIU55h0mjlwaqxiE5vYENJXIXZ4VFe05pNYrkKuK0U/6aFcb0pKywYJh7IhfoqUfKVmrJJHZHw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/object.hasown/-/object.hasown-1.1.1.tgz"
+        "url": "https://registry.npmjs.org/object.hasown/-/object.hasown-1.1.2.tgz"
       }
     },
     "object.pick": {
@@ -8421,10 +8421,10 @@
       }
     },
     "object.values": {
-      "1.1.5": {
-        "hash": "sha512-QUZRW0ilQ3PnPpbNtgdNV1PDbEqLIiSFB3l+EnGtBQ/8SUTLj1PZwtQHABZtLgwpJZTSZhuGLOGk57Drx2IvYg==",
+      "1.1.6": {
+        "hash": "sha512-FVVTkD1vENCsAcwNs9k6jea2uHC/X0+JcjG8YA60FN5CMaJmG95wT9jek/xX9nornqGRrBkKtzuAu2wuHpKqvw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/object.values/-/object.values-1.1.5.tgz"
+        "url": "https://registry.npmjs.org/object.values/-/object.values-1.1.6.tgz"
       }
     },
     "on-finished": {
