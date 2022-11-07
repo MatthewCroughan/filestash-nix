@@ -255,7 +255,7 @@
     "autoprefixer": {
       "6.7.7": [
         [ "browserslist", "1.7.7" ],
-        [ "caniuse-db", "1.0.30001430" ],
+        [ "caniuse-db", "1.0.30001431" ],
         [ "normalize-range", "0.1.2" ],
         [ "num2fraction", "1.2.2" ],
         [ "postcss", "5.2.18" ],
@@ -909,7 +909,7 @@
     },
     "browserslist": {
       "1.7.7": [
-        [ "caniuse-db", "1.0.30001430" ],
+        [ "caniuse-db", "1.0.30001431" ],
         [ "electron-to-chromium", "1.4.284" ]
       ]
     },
@@ -971,7 +971,7 @@
     "caniuse-api": {
       "1.6.1": [
         [ "browserslist", "1.7.7" ],
-        [ "caniuse-db", "1.0.30001430" ],
+        [ "caniuse-db", "1.0.30001431" ],
         [ "lodash.memoize", "4.1.2" ],
         [ "lodash.uniq", "4.5.0" ]
       ]
@@ -2653,7 +2653,7 @@
       ]
     },
     "object.getownpropertydescriptors": {
-      "2.1.4": [
+      "2.1.5": [
         [ "array.prototype.reduce", "1.0.5" ],
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
@@ -3869,7 +3869,7 @@
     "util.promisify": {
       "1.0.0": [
         [ "define-properties", "1.1.4" ],
-        [ "object.getownpropertydescriptors", "2.1.4" ]
+        [ "object.getownpropertydescriptors", "2.1.5" ]
       ]
     },
     "validate-npm-package-license": {
@@ -5466,10 +5466,10 @@
       }
     },
     "caniuse-db": {
-      "1.0.30001430": {
-        "hash": "sha512-CUqAjQhmMVW2+V5gsAxLahhaXnsAnpbAsA+LW/8LKo/yPeg/Vs+UvXaerAEzzdb6cwaUONrRF7i3BcekX35pnQ==",
+      "1.0.30001431": {
+        "hash": "sha512-HVVZuWcMLI0hHSrZyPG8PDJtFXsHzJgRoOHesgD2ne2/HZWZ8kVPFlmntKqHDo3NwFQWYs06IuMV7NpErAM8tg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/caniuse-db/-/caniuse-db-1.0.30001430.tgz"
+        "url": "https://registry.npmjs.org/caniuse-db/-/caniuse-db-1.0.30001431.tgz"
       }
     },
     "caseless": {
@@ -8400,10 +8400,10 @@
       }
     },
     "object.getownpropertydescriptors": {
-      "2.1.4": {
-        "hash": "sha512-sccv3L/pMModT6dJAYF3fzGMVcb38ysQ0tEE6ixv2yXJDtEIPph268OlAdJj5/qZMZDq2g/jqvwppt36uS/uQQ==",
+      "2.1.5": {
+        "hash": "sha512-yDNzckpM6ntyQiGTik1fKV1DcVDRS+w8bvpWNCBanvH5LfRX9O8WTHqQzG4RZwRAM4I0oU7TV11Lj5v0g20ibw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/object.getownpropertydescriptors/-/object.getownpropertydescriptors-2.1.4.tgz"
+        "url": "https://registry.npmjs.org/object.getownpropertydescriptors/-/object.getownpropertydescriptors-2.1.5.tgz"
       }
     },
     "object.hasown": {
