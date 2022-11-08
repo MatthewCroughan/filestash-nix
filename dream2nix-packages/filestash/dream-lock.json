@@ -40,7 +40,7 @@
       ]
     },
     "string.prototype.trimstart": {
-      "1.0.5": [
+      "1.0.6": [
         [ "es-abstract", "1.20.4" ]
       ]
     }
@@ -1464,7 +1464,7 @@
         [ "regexp.prototype.flags", "1.4.3" ],
         [ "safe-regex-test", "1.0.0" ],
         [ "string.prototype.trimend", "1.0.6" ],
-        [ "string.prototype.trimstart", "1.0.5" ],
+        [ "string.prototype.trimstart", "1.0.6" ],
         [ "unbox-primitive", "1.0.2" ]
       ]
     },
@@ -3652,7 +3652,7 @@
       ]
     },
     "string.prototype.trimstart": {
-      "1.0.5": [
+      "1.0.6": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.1.4" ],
         [ "es-abstract", "1.20.4" ]
@@ -10049,10 +10049,10 @@
       }
     },
     "string.prototype.trimstart": {
-      "1.0.5": {
-        "hash": "sha512-THx16TJCGlsN0o6dl2o6ncWUsdgnLRSA23rRE5pyGBw/mLr3Ej/R2LaqCtgP8VNMGZsvMWnf9ooZPyY2bHvUFg==",
+      "1.0.6": {
+        "hash": "sha512-omqjMDaY92pbn5HOX7f9IccLA+U1tA9GvtU4JrodiXFfYB7jPzzHpRzpglLAjtUV6bB557zwClJezTqnAiYnQA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/string.prototype.trimstart/-/string.prototype.trimstart-1.0.5.tgz"
+        "url": "https://registry.npmjs.org/string.prototype.trimstart/-/string.prototype.trimstart-1.0.6.tgz"
       }
     },
     "string_decoder": {
