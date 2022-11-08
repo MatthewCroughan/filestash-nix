@@ -146,7 +146,7 @@
     "ajv": {
       "4.11.8": [
         [ "co", "4.6.0" ],
-        [ "json-stable-stringify", "1.0.1" ]
+        [ "json-stable-stringify", "1.0.2" ]
       ],
       "5.5.2": [
         [ "co", "4.6.0" ],
@@ -2256,7 +2256,7 @@
       ]
     },
     "json-stable-stringify": {
-      "1.0.1": [
+      "1.0.2": [
         [ "jsonify", "0.0.1" ]
       ]
     },
@@ -7695,10 +7695,10 @@
       }
     },
     "json-stable-stringify": {
-      "1.0.1": {
-        "hash": "sha512-i/J297TW6xyj7sDFa7AmBPkQvLIxWr2kKPWI26tXydnZrzVAocNqn5DMNT1Mzk0vit1V5UkRM7C1KdVNp7Lmcg==",
+      "1.0.2": {
+        "hash": "sha512-eunSSaEnxV12z+Z73y/j5N37/In40GK4GmsSy+tEHJMxknvqnA7/djeYtAgW0GsWHUfg+847WJjKaEylk2y09g==",
         "type": "http",
-        "url": "https://registry.npmjs.org/json-stable-stringify/-/json-stable-stringify-1.0.1.tgz"
+        "url": "https://registry.npmjs.org/json-stable-stringify/-/json-stable-stringify-1.0.2.tgz"
       }
     },
     "json-stable-stringify-without-jsonify": {
