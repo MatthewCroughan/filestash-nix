@@ -126,11 +126,11 @@
     "filestash-src": {
       "flake": false,
       "locked": {
-        "lastModified": 1668547521,
-        "narHash": "sha256-hWuIYH7kXN8oCFV8DHseBebVhcXmj7PQ2Ase8KqCnbI=",
+        "lastModified": 1668582080,
+        "narHash": "sha256-hT81xnjdASVL3Ed8BJH2XygZubCIQw3JQQKAG6MoFoU=",
         "owner": "mickael-kerjean",
         "repo": "filestash",
-        "rev": "a9350c31265ddf005b4fe1ac81ff9fcb4b8bf376",
+        "rev": "cc9b9786abe41752e371806977756682c876e3e7",
         "type": "github"
       },
       "original": {
