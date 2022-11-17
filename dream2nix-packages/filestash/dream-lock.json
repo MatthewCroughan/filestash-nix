@@ -55,7 +55,7 @@
     },
     "@babel/runtime": {
       "7.20.1": [
-        [ "regenerator-runtime", "0.13.10" ]
+        [ "regenerator-runtime", "0.13.11" ]
       ]
     },
     "@eslint/eslintrc": {
@@ -9399,10 +9399,10 @@
         "type": "http",
         "url": "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.11.1.tgz"
       },
-      "0.13.10": {
-        "hash": "sha512-KepLsg4dU12hryUO7bp/axHAKvwGOCV0sGloQtpagJ12ai+ojVDqkeGSiRX1zlq+kjIMZ1t7gpze+26QqtdGqw==",
+      "0.13.11": {
+        "hash": "sha512-kY1AZVr2Ra+t+piVaJ4gxaFaReZVH40AKNo7UCX6W+dEwBo/2oZJzqfuN1qLq1oL45o56cPaTXELwrTh8Fpggg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.10.tgz"
+        "url": "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.11.tgz"
       }
     },
     "regenerator-transform": {
