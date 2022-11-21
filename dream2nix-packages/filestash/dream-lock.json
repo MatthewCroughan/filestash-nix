@@ -264,7 +264,7 @@
     "autoprefixer": {
       "6.7.7": [
         [ "browserslist", "1.7.7" ],
-        [ "caniuse-db", "1.0.30001431" ],
+        [ "caniuse-db", "1.0.30001434" ],
         [ "normalize-range", "0.1.2" ],
         [ "num2fraction", "1.2.2" ],
         [ "postcss", "5.2.18" ],
@@ -918,7 +918,7 @@
     },
     "browserslist": {
       "1.7.7": [
-        [ "caniuse-db", "1.0.30001431" ],
+        [ "caniuse-db", "1.0.30001434" ],
         [ "electron-to-chromium", "1.4.284" ]
       ]
     },
@@ -980,7 +980,7 @@
     "caniuse-api": {
       "1.6.1": [
         [ "browserslist", "1.7.7" ],
-        [ "caniuse-db", "1.0.30001431" ],
+        [ "caniuse-db", "1.0.30001434" ],
         [ "lodash.memoize", "4.1.2" ],
         [ "lodash.uniq", "4.5.0" ]
       ]
@@ -5483,10 +5483,10 @@
       }
     },
     "caniuse-db": {
-      "1.0.30001431": {
-        "hash": "sha512-HVVZuWcMLI0hHSrZyPG8PDJtFXsHzJgRoOHesgD2ne2/HZWZ8kVPFlmntKqHDo3NwFQWYs06IuMV7NpErAM8tg==",
+      "1.0.30001434": {
+        "hash": "sha512-S3C9KcO14uBVr1NDSwx3bGprJTiY0q90IyC2MyJWUmGxkPjsuWODfv/8Tl67Dok/n4q2l4yzS0/MqWDu/rZxDQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/caniuse-db/-/caniuse-db-1.0.30001431.tgz"
+        "url": "https://registry.npmjs.org/caniuse-db/-/caniuse-db-1.0.30001434.tgz"
       }
     },
     "caseless": {
