@@ -64,7 +64,7 @@
         [ "debug", "4.3.4" ],
         [ "espree", "9.4.1" ],
         [ "globals", "13.19.0" ],
-        [ "ignore", "5.2.2" ],
+        [ "ignore", "5.2.4" ],
         [ "import-fresh", "3.3.0" ],
         [ "js-yaml", "4.1.0" ],
         [ "minimatch", "3.1.2" ],
@@ -1520,7 +1520,7 @@
         [ "glob-parent", "6.0.2" ],
         [ "globals", "13.19.0" ],
         [ "grapheme-splitter", "1.0.4" ],
-        [ "ignore", "5.2.2" ],
+        [ "ignore", "5.2.4" ],
         [ "import-fresh", "3.3.0" ],
         [ "imurmurhash", "0.1.4" ],
         [ "is-glob", "4.0.3" ],
@@ -7230,10 +7230,10 @@
         "type": "http",
         "url": "https://registry.npmjs.org/ignore/-/ignore-3.3.10.tgz"
       },
-      "5.2.2": {
-        "hash": "sha512-m1MJSy4Z2NAcyhoYpxQeBsc1ZdNQwYjN0wGbLBlnVArdJ90Gtr8IhNSfZZcCoR0fM/0E0BJ0mf1KnLNDOCJP4w==",
+      "5.2.4": {
+        "hash": "sha512-MAb38BcSbH0eHNBxn7ql2NH/kX33OkB3lZ1BNdh7ENeRChHTYsTvWrMubiIAMNS2llXEEgZ1MUOBtXChP3kaFQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/ignore/-/ignore-5.2.2.tgz"
+        "url": "https://registry.npmjs.org/ignore/-/ignore-5.2.4.tgz"
       }
     },
     "import-fresh": {
