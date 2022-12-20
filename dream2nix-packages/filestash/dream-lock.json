@@ -1693,7 +1693,7 @@
         [ "babel-preset-stage-2", "6.24.1" ],
         [ "babelify", "8.0.0" ],
         [ "bcryptjs", "2.4.3" ],
-        [ "codemirror", "5.65.10" ],
+        [ "codemirror", "5.65.11" ],
         [ "compression-webpack-plugin", "1.1.12" ],
         [ "copy-webpack-plugin", "4.6.0" ],
         [ "css-loader", "0.28.11" ],
@@ -5647,10 +5647,10 @@
       }
     },
     "codemirror": {
-      "5.65.10": {
-        "hash": "sha512-IXAG5wlhbgcTJ6rZZcmi4+sjWIbJqIGfeg3tNa3yX84Jb3T4huS5qzQAo/cUisc1l3bI47WZodpyf7cYcocDKg==",
+      "5.65.11": {
+        "hash": "sha512-Gp62g2eKSCHYt10axmGhKq3WoJSvVpvhXmowNq7pZdRVowwtvBR/hi2LSP5srtctKkRT33T6/n8Kv1UGp7JW4A==",
         "type": "http",
-        "url": "https://registry.npmjs.org/codemirror/-/codemirror-5.65.10.tgz"
+        "url": "https://registry.npmjs.org/codemirror/-/codemirror-5.65.11.tgz"
       }
     },
     "collection-visit": {
