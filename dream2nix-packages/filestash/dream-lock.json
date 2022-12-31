@@ -59,7 +59,7 @@
       ]
     },
     "@eslint/eslintrc": {
-      "1.4.0": [
+      "1.4.1": [
         [ "ajv", "6.12.6" ],
         [ "debug", "4.3.4" ],
         [ "espree", "9.4.1" ],
@@ -1497,8 +1497,8 @@
       ]
     },
     "eslint": {
-      "8.30.0": [
-        [ "@eslint/eslintrc", "1.4.0" ],
+      "8.31.0": [
+        [ "@eslint/eslintrc", "1.4.1" ],
         [ "@humanwhocodes/config-array", "0.11.8" ],
         [ "@humanwhocodes/module-importer", "1.0.1" ],
         [ "@nodelib/fs.walk", "1.2.8" ],
@@ -1697,7 +1697,7 @@
         [ "compression-webpack-plugin", "1.1.12" ],
         [ "copy-webpack-plugin", "4.6.0" ],
         [ "css-loader", "0.28.11" ],
-        [ "eslint", "8.30.0" ],
+        [ "eslint", "8.31.0" ],
         [ "eslint-config-google", "0.14.0" ],
         [ "eslint-plugin-react", "7.31.11" ],
         [ "exif-js", "2.3.0" ],
@@ -4145,10 +4145,10 @@
       }
     },
     "@eslint/eslintrc": {
-      "1.4.0": {
-        "hash": "sha512-7yfvXy6MWLgWSFsLhz5yH3iQ52St8cdUY6FoGieKkRDVxuxmrNuUetIuu6cmjNWwniUHiWXjxCr5tTXDrbYS5A==",
+      "1.4.1": {
+        "hash": "sha512-XXrH9Uarn0stsyldqDYq8r++mROmWRI1xKMXa640Bb//SY1+ECYX6VzT6Lcx5frD0V30XieqJ0oX9I2Xj5aoMA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-1.4.0.tgz"
+        "url": "https://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-1.4.1.tgz"
       }
     },
     "@humanwhocodes/config-array": {
@@ -6363,10 +6363,10 @@
       }
     },
     "eslint": {
-      "8.30.0": {
-        "hash": "sha512-MGADB39QqYuzEGov+F/qb18r4i7DohCDOfatHaxI2iGlPuC65bwG2gxgO+7DkyL38dRFaRH7RaRAgU6JKL9rMQ==",
+      "8.31.0": {
+        "hash": "sha512-0tQQEVdmPZ1UtUKXjX7EMm9BlgJ08G90IhWh0PKDCb3ZLsgAOHI8fYSIzYVZej92zsgq+ft0FGsxhJ3xo2tbuA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/eslint/-/eslint-8.30.0.tgz"
+        "url": "https://registry.npmjs.org/eslint/-/eslint-8.31.0.tgz"
       }
     },
     "eslint-config-google": {
