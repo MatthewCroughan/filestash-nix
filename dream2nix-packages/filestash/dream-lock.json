@@ -92,7 +92,7 @@
     "@nodelib/fs.walk": {
       "1.2.8": [
         [ "@nodelib/fs.scandir", "2.1.5" ],
-        [ "fastq", "1.14.0" ]
+        [ "fastq", "1.15.0" ]
       ]
     },
     "@videojs/http-streaming": {
@@ -1664,7 +1664,7 @@
       ]
     },
     "fastq": {
-      "1.14.0": [
+      "1.15.0": [
         [ "reusify", "1.0.4" ]
       ]
     },
@@ -6575,10 +6575,10 @@
       }
     },
     "fastq": {
-      "1.14.0": {
-        "hash": "sha512-eR2D+V9/ExcbF9ls441yIuN6TI2ED1Y2ZcA5BmMtJsOkWOFRJQ0Jt0g1UwqXJJVAb+V+umH5Dfr8oh4EVP7VVg==",
+      "1.15.0": {
+        "hash": "sha512-wBrocU2LCXXa+lWBt8RoIRD89Fi8OdABODa/kEnyeyjS5aZO5/GNvI5sEINADqP/h8M29UHTHUb53sUu5Ihqdw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/fastq/-/fastq-1.14.0.tgz"
+        "url": "https://registry.npmjs.org/fastq/-/fastq-1.15.0.tgz"
       }
     },
     "file-entry-cache": {
