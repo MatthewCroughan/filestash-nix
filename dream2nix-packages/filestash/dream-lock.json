@@ -3363,7 +3363,7 @@
     "request": {
       "2.88.2": [
         [ "aws-sign2", "0.7.0" ],
-        [ "aws4", "1.11.0" ],
+        [ "aws4", "1.12.0" ],
         [ "caseless", "0.12.0" ],
         [ "combined-stream", "1.0.8" ],
         [ "extend", "3.0.2" ],
@@ -4687,10 +4687,10 @@
       }
     },
     "aws4": {
-      "1.11.0": {
-        "hash": "sha512-xh1Rl34h6Fi1DC2WWKfxUTVqRsNnr6LsKz2+hfwDxQJWmrx8+c7ylaqBMcHfl1U1r2dsifOvKX3LQuLNZ+XSvA==",
+      "1.12.0": {
+        "hash": "sha512-NmWvPnx0F1SfrQbYwOi7OeaNGokp9XhzNioJ/CSBs8Qa4vxug81mhJEAVZwxXuBmYB5KDRfMq/F3RR0BIU7sWg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/aws4/-/aws4-1.11.0.tgz"
+        "url": "https://registry.npmjs.org/aws4/-/aws4-1.12.0.tgz"
       }
     },
     "babel-code-frame": {
