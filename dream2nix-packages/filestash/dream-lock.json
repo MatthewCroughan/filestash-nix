@@ -3823,7 +3823,7 @@
     "tough-cookie": {
       "2.5.0": [
         [ "psl", "1.9.0" ],
-        [ "punycode", "2.1.1" ]
+        [ "punycode", "2.2.0" ]
       ]
     },
     "true-case-path": {
@@ -3917,7 +3917,7 @@
     },
     "uri-js": {
       "4.4.1": [
-        [ "punycode", "2.1.1" ]
+        [ "punycode", "2.2.0" ]
       ]
     },
     "url": {
@@ -9298,10 +9298,10 @@
         "type": "http",
         "url": "https://registry.npmjs.org/punycode/-/punycode-1.4.1.tgz"
       },
-      "2.1.1": {
-        "hash": "sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==",
+      "2.2.0": {
+        "hash": "sha512-LN6QV1IJ9ZhxWTNdktaPClrNfp8xdSAYS0Zk2ddX7XsXZAxckMHPCBcHRo0cTcEIgYPRiGEkmji3Idkh2yFtYw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/punycode/-/punycode-2.1.1.tgz"
+        "url": "https://registry.npmjs.org/punycode/-/punycode-2.2.0.tgz"
       }
     },
     "q": {
