@@ -3206,7 +3206,7 @@
       "5.3.2": [
         [ "@babel/runtime", "7.20.7" ],
         [ "file-loader", "6.2.0" ],
-        [ "make-cancellable-promise", "1.1.0" ],
+        [ "make-cancellable-promise", "1.2.0" ],
         [ "make-event-props", "1.3.0" ],
         [ "merge-class-names", "1.4.2" ],
         [ "merge-refs", "1.1.0" ],
@@ -8131,10 +8131,10 @@
       }
     },
     "make-cancellable-promise": {
-      "1.1.0": {
-        "hash": "sha512-X5Opjm2xcZsOLuJ+Bnhb4t5yfu4ehlA3OKEYLtqUchgVzL/QaqW373ZUVxVHKwvJ38cmYuR4rAHD2yUvAIkTPA==",
+      "1.2.0": {
+        "hash": "sha512-sLhwwkWNAtPpvYh1Yen8QRMm6tRReFsheUri2muqIrZEDwEHBPAsQeAD5ezZ4F7wjdmttoZL+w/BDkgmvOQSsA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/make-cancellable-promise/-/make-cancellable-promise-1.1.0.tgz"
+        "url": "https://registry.npmjs.org/make-cancellable-promise/-/make-cancellable-promise-1.2.0.tgz"
       }
     },
     "make-dir": {
