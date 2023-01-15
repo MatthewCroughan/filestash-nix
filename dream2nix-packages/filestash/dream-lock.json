@@ -1519,7 +1519,7 @@
       ]
     },
     "eslint": {
-      "8.31.0": [
+      "8.32.0": [
         [ "@eslint/eslintrc", "1.4.1" ],
         [ "@humanwhocodes/config-array", "0.11.8" ],
         [ "@humanwhocodes/module-importer", "1.0.1" ],
@@ -1719,7 +1719,7 @@
         [ "compression-webpack-plugin", "1.1.12" ],
         [ "copy-webpack-plugin", "4.6.0" ],
         [ "css-loader", "0.28.11" ],
-        [ "eslint", "8.31.0" ],
+        [ "eslint", "8.32.0" ],
         [ "eslint-config-google", "0.14.0" ],
         [ "eslint-plugin-react", "7.32.0" ],
         [ "exif-js", "2.3.0" ],
@@ -6475,10 +6475,10 @@
       }
     },
     "eslint": {
-      "8.31.0": {
-        "hash": "sha512-0tQQEVdmPZ1UtUKXjX7EMm9BlgJ08G90IhWh0PKDCb3ZLsgAOHI8fYSIzYVZej92zsgq+ft0FGsxhJ3xo2tbuA==",
+      "8.32.0": {
+        "hash": "sha512-nETVXpnthqKPFyuY2FNjz/bEd6nbosRgKbkgS/y1C7LJop96gYHWpiguLecMHQ2XCPxn77DS0P+68WzG6vkZSQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/eslint/-/eslint-8.31.0.tgz"
+        "url": "https://registry.npmjs.org/eslint/-/eslint-8.32.0.tgz"
       }
     },
     "eslint-config-google": {
