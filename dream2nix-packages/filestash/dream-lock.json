@@ -96,7 +96,7 @@
       ]
     },
     "@types/react": {
-      "18.0.26": [
+      "18.0.27": [
         [ "@types/prop-types", "15.7.5" ],
         [ "@types/scheduler", "0.16.2" ],
         [ "csstype", "3.1.1" ]
@@ -2465,7 +2465,7 @@
     },
     "merge-refs": {
       "1.1.0": [
-        [ "@types/react", "18.0.26" ]
+        [ "@types/react", "18.0.27" ]
       ]
     },
     "micromatch": {
@@ -4285,10 +4285,10 @@
       }
     },
     "@types/react": {
-      "18.0.26": {
-        "hash": "sha512-hCR3PJQsAIXyxhTNSiDFY//LhnMZWpNNr5etoCqx/iUfGc5gXWtQR2Phl908jVR6uPXacojQWTg4qRpkxTuGug==",
+      "18.0.27": {
+        "hash": "sha512-3vtRKHgVxu3Jp9t718R9BuzoD4NcQ8YJ5XRzsSKxNDiDonD2MXIT1TmSkenxuCycZJoQT5d2vE8LwWJxBC1gmA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@types/react/-/react-18.0.26.tgz"
+        "url": "https://registry.npmjs.org/@types/react/-/react-18.0.27.tgz"
       }
     },
     "@types/scheduler": {
