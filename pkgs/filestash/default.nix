@@ -5,6 +5,7 @@ let
     config.projectRoot = filestash-src;
     source = filestash-src;
     settings = [ { subsystemInfo.nodejs = "14"; subsystemInfo.npmArgs = "--legacy-peer-deps"; } ];
+    autoProjects = true;
   }).packages.${pkgs.hostPlatform.system}.filestash.resolve;
   js = (dream2nix.lib.${pkgs.hostPlatform.system}.makeOutputsForDreamLock {
     dreamLock = ../../dream2nix-packages/filestash/dream-lock.json;
@@ -21,7 +22,7 @@ let
       };
     };
   }).packages.filestash;
-  go = buildGoModule rec {
+  go = buildGoModule {
     name = "filestash-golang";
     src = filestash-src;
     vendorSha256 = null;
@@ -51,7 +52,7 @@ let
   libtranscode = stdenv.mkDerivation {
     name = "libtranscode";
     src = filestash-src + "/server/plugin/plg_image_light/deps/src";
-    buildInputs = with pkgs; [
+    buildInputs = [
       libraw
     ];
     buildPhase = ''

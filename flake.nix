@@ -9,12 +9,12 @@
       url = "github:mickael-kerjean/filestash";
       flake = false;
     };
-    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-22.11";
     dream2nix.url = "github:nix-community/dream2nix";
     flake-parts.url = "github:hercules-ci/flake-parts";
   };
-  outputs = { self, nixpkgs, flake-parts, dream2nix, filestash-src }:
-    flake-parts.lib.mkFlake { inherit self; } {
+  outputs = { self, nixpkgs, flake-parts, dream2nix, filestash-src }@inputs:
+    flake-parts.lib.mkFlake { inherit inputs; } {
       systems = [
         "x86_64-linux"
         "aarch64-linux"
