@@ -7,7 +7,7 @@ let
     settings = [ { subsystemInfo.nodejs = "14"; subsystemInfo.npmArgs = "--legacy-peer-deps"; } ];
     autoProjects = true;
   }).packages.${pkgs.hostPlatform.system}.filestash.resolve;
-  js = (dream2nix.lib.${pkgs.hostPlatform.system}.makeOutputsForDreamLock {
+  js = ((dream2nix.lib.init { inherit pkgs; }).dream2nix-interface.makeOutputsForDreamLock {
     dreamLock = ../../dream2nix-packages/filestash/dream-lock.json;
     sourceOverrides = oldSources: {
       "filestash"."0.0.0" = filestash-src;
