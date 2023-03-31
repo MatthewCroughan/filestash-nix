@@ -1,4 +1,4 @@
-{ buildGo120Module
+{ buildGoModule
 , dream2nix
 , filestash-src
 , glib
@@ -71,7 +71,7 @@ let
     '';
   };
 in
-buildGo120Module {
+buildGoModule {
   pname = "filestash";
   version = "unstable-" + filestash-src.shortRev;
 
