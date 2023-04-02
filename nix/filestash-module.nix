@@ -22,7 +22,6 @@ in {
       tmpfiles.rules = [
         "d  ${cfg.dataDir}/data        0771 - - - -"
         "d  ${cfg.dataDir}/data/state  0771 - - - -"
-        "L+ ${cfg.dataDir}/data/public 0771 - - - ${cfg.package}/data/public"
       ];
       services.filestash = {
         description = "A modern web client for SFTP and more";

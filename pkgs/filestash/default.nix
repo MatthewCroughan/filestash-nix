@@ -1,4 +1,18 @@
-{ dream2nix, stdenv, self, python, runCommand, pkgs, filestash-src, glib, vips, libraw, pkg-config, buildGoModule }:
+{ buildGoModule
+, dream2nix
+, filestash-src
+, glib
+, gotools
+, libraw
+, pkg-config
+, pkgs
+, python
+, self
+, stdenv
+, vips
+, util-linux
+, writeShellScriptBin
+}:
 let
   updateScript = (dream2nix.lib.makeFlakeOutputs {
     inherit pkgs;
@@ -7,7 +21,7 @@ let
     settings = [ { subsystemInfo.nodejs = "14"; subsystemInfo.npmArgs = "--legacy-peer-deps"; } ];
     autoProjects = true;
   }).packages.${pkgs.hostPlatform.system}.filestash.resolve;
-  js = ((dream2nix.lib.init { inherit pkgs; }).dream2nix-interface.makeOutputsForDreamLock {
+  frontend = ((dream2nix.lib.init { inherit pkgs; }).dream2nix-interface.makeOutputsForDreamLock {
     dreamLock = ../../dream2nix-packages/filestash/dream-lock.json;
     sourceOverrides = oldSources: {
       "filestash"."0.0.0" = filestash-src;
@@ -22,33 +36,6 @@ let
       };
     };
   }).packages.filestash;
-  go = buildGoModule {
-    name = "filestash-golang";
-    src = filestash-src;
-    vendorSha256 = null;
-    buildInputs = [
-      glib libresize libtranscode vips libraw
-    ];
-    nativeBuildInputs = [
-      pkg-config
-    ];
-    patchPhase = ''
-      substituteInPlace server/plugin/plg_backend_ftp_only/index.go \
-        --replace '"crypto/tls"' '//"crypto/tls"'
-    '';
-    preBuild = let
-      libresizePath = (builtins.replaceStrings [ "/" ] [ "\\/" ] libresize.outPath);
-      libtranscodePath = (builtins.replaceStrings [ "/" ] [ "\\/" ] libtranscode.outPath);
-    in ''
-      make build_init
-      sed -ie 's/-L.\/deps -l:libresize_linux_amd64.a/-L${libresizePath}\/lib -l:libresize.a -lvips/' server/plugin/plg_image_light/lib_resize_linux_amd64.go
-      sed -ie 's/-L.\/deps -l:libtranscode_linux_amd64.a/-L${libtranscodePath}\/lib -l:libtranscode.a -lraw/' server/plugin/plg_image_light/lib_transcode_linux_amd64.go
-    '';
-    postInstall = ''
-      cp $out/bin/server $out/bin/filestash
-    '';
-    excludedPackages = "\\(server/generator\\|server/plugin/plg_starter_http2\\|server/plugin/plg_starter_https\\|server/plugin/plg_search_sqlitefts\\)";
-  };
   libtranscode = stdenv.mkDerivation {
     name = "libtranscode";
     src = filestash-src + "/server/plugin/plg_image_light/deps/src";
@@ -84,14 +71,69 @@ let
     '';
   };
 in
-pkgs.stdenv.mkDerivation {
-  passthru.update = updateScript;
-  name = "filestash";
-  phases = [ "InstallPhase" ];
-  InstallPhase = ''
-    mkdir -p $out/bin
-    cp ${go}/bin/filestash $out/bin
-    mkdir -p $out/data
-    cp -r ${js}/lib/node_modules/filestash/dist/data/public $out/data
+buildGoModule {
+  pname = "filestash";
+  version = "unstable-" + filestash-src.shortRev;
+
+  src = frontend + "/lib/node_modules/filestash";
+
+  vendorHash = null;
+
+  excludedPackages = [
+    "server/generator"
+    "server/plugin/plg_starter_http2"
+    "server/plugin/plg_starter_https"
+    "server/plugin/plg_search_sqlitefts"
+  ];
+
+  buildInputs = [
+    glib
+    libraw
+    libresize
+    libtranscode
+    vips
+  ];
+
+  nativeBuildInputs = [
+    (writeShellScriptBin "git" "echo '${filestash-src.rev}'")
+    gotools
+    util-linux
+    pkg-config
+  ];
+
+  patches = [
+    ## Use flake input's lastModified as build date (see `postPatch` phase), as
+    ## `time.Now()` is impure. The build date is used in Filestash's own version
+    ## reporting and the http User-Agent when connecting to a backend.
+    ./fix-impure-build-date.patch
+  ];
+
+  postPatch =
+    let
+      platform = {
+        aarch64-linux = "linux_arm";
+        x86_64-linux = "linux_amd64";
+      }.${pkgs.hostPlatform.system} or (throw "Unsupported system: ${pkgs.hostPlatform.system}");
+    in
+    ''
+      substituteInPlace server/generator/constants.go --subst-var-by build_date '${toString filestash-src.lastModified}'
+
+      ## fix "imported and not used" errors
+      goimports -w server/
+
+      sed -i 's#-L./deps -l:libresize_${platform}.a#-L${libresize.outPath}/lib -l:libresize.a -lvips#' server/plugin/plg_image_light/lib_resize_${platform}.go
+      sed -i 's#-L./deps -l:libtranscode_${platform}.a#-L${libtranscode.outPath}/lib -l:libtranscode.a -lraw#' server/plugin/plg_image_light/lib_transcode_${platform}.go
+
+      ## server/** requires globstar
+      shopt -s globstar
+      rename --no-overwrite --verbose linux_arm.go linux_arm64.go server/**
+    '';
+
+  preBuild = ''
+    make build_init
+  '';
+
+  postInstall = ''
+    mv $out/bin/server $out/bin/filestash
   '';
 }

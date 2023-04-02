@@ -114,11 +114,11 @@
     "filestash-src": {
       "flake": false,
       "locked": {
-        "lastModified": 1668978605,
-        "narHash": "sha256-tY+veItOVINOCABYtX+YwcnNbvcr6T/DyybiBwLoU0M=",
+        "lastModified": 1679755428,
+        "narHash": "sha256-omx0AShSmo0dTiYP/WghWERQhTuFW/eVKR6iL42WsNI=",
         "owner": "mickael-kerjean",
         "repo": "filestash",
-        "rev": "6eb26e9a7035df018973f7484d5e8b55966b7031",
+        "rev": "26ee2006f4b0b5af5335e92238fd4a24c1a832c0",
         "type": "github"
       },
       "original": {
@@ -310,11 +310,11 @@
     },
     "nixpkgs_2": {
       "locked": {
-        "lastModified": 1674407282,
-        "narHash": "sha256-2qwc8mrPINSFdWffPK+ji6nQ9aGnnZyHSItVcYDZDlk=",
+        "lastModified": 1679748960,
+        "narHash": "sha256-BP8XcYHyj1NxQi04RpyNW8e7KiXSoI+Fy1tXIK2GfdA=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "ab1254087f4cdf4af74b552d7fc95175d9bdbb49",
+        "rev": "da26ae9f6ce2c9ab380c0f394488892616fc5a6a",
         "type": "github"
       },
       "original": {
