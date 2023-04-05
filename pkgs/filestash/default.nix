@@ -72,6 +72,7 @@ let
   };
 in
 buildGoModule {
+  passthru.update = updateScript;
   pname = "filestash";
   version = "unstable-" + filestash-src.shortRev;
 
