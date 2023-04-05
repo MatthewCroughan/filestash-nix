@@ -3613,7 +3613,7 @@
     "normalize-package-data": {
       "2.5.0": [
         [ "hosted-git-info", "2.8.9" ],
-        [ "resolve", "1.22.1" ],
+        [ "resolve", "1.22.2" ],
         [ "semver", "5.7.1" ],
         [ "validate-npm-package-license", "3.0.4" ]
       ]
@@ -4355,7 +4355,7 @@
       ]
     },
     "resolve": {
-      "1.22.1": [
+      "1.22.2": [
         [ "is-core-module", "2.11.0" ],
         [ "path-parse", "1.0.7" ],
         [ "supports-preserve-symlinks-flag", "1.0.0" ]
@@ -10798,10 +10798,10 @@
       }
     },
     "resolve": {
-      "1.22.1": {
-        "hash": "sha512-nBpuuYuY5jFsli/JIs1oldw6fOQCBioohqWZg/2hiaOybXOft4lonv85uDOKXdf8rhyK159cxU5cDcK/NKk8zw==",
+      "1.22.2": {
+        "hash": "sha512-Sb+mjNHOULsBv818T40qSPeRiuWLyaGMa5ewydRLFimneixmVy2zdivRl+AF6jaYPC8ERxGDmFSiqui6SfPd+g==",
         "type": "http",
-        "url": "https://registry.npmjs.org/resolve/-/resolve-1.22.1.tgz"
+        "url": "https://registry.npmjs.org/resolve/-/resolve-1.22.2.tgz"
       },
       "2.0.0-next.4": {
         "hash": "sha512-iMDbmAWtfU+MHpxt/I5iWI7cY6YVEZUQ3MBgPQ++XD1PELuJHIl82xBmObyP2KyQmkNB2dsqF7seoQQiAn5yDQ==",
