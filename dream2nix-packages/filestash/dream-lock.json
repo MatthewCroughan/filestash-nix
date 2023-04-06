@@ -969,7 +969,7 @@
     "browserslist": {
       "1.7.7": [
         [ "caniuse-db", "1.0.30001474" ],
-        [ "electron-to-chromium", "1.4.354" ]
+        [ "electron-to-chromium", "1.4.355" ]
       ]
     },
     "buffer": {
@@ -2077,7 +2077,7 @@
         [ "ecc-jsbn", "0.1.2" ],
         [ "ee-first", "1.1.1" ],
         [ "ejs", "2.7.4" ],
-        [ "electron-to-chromium", "1.4.354" ],
+        [ "electron-to-chromium", "1.4.355" ],
         [ "elliptic", "6.5.4" ],
         [ "emoji-regex", "7.0.3" ],
         [ "emojis-list", "2.1.0" ],
@@ -7348,10 +7348,10 @@
       }
     },
     "electron-to-chromium": {
-      "1.4.354": {
-        "hash": "sha512-s0nWEXmXjr8NUTxrdoG2oNzU67Sb8JSW411Pf6Ka+jtXsGx6CCTN1bzWwqY2UB3I4ZeytKgWUM7WkrtWzb4dig==",
+      "1.4.355": {
+        "hash": "sha512-056hxzEE4l667YeOccgjhRr5fTiwZ6EIJ4FpzGps4k3YcS8iAhiaBYUBrv5E2LDQJsussscv9EEUwAYKnv+ZKg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.354.tgz"
+        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.355.tgz"
       }
     },
     "elliptic": {
