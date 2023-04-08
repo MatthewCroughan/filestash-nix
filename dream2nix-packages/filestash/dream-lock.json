@@ -314,7 +314,7 @@
     "autoprefixer": {
       "6.7.7": [
         [ "browserslist", "1.7.7" ],
-        [ "caniuse-db", "1.0.30001474" ],
+        [ "caniuse-db", "1.0.30001476" ],
         [ "normalize-range", "0.1.2" ],
         [ "num2fraction", "1.2.2" ],
         [ "postcss", "5.2.18" ],
@@ -968,7 +968,7 @@
     },
     "browserslist": {
       "1.7.7": [
-        [ "caniuse-db", "1.0.30001474" ],
+        [ "caniuse-db", "1.0.30001476" ],
         [ "electron-to-chromium", "1.4.356" ]
       ]
     },
@@ -1030,7 +1030,7 @@
     "caniuse-api": {
       "1.6.1": [
         [ "browserslist", "1.7.7" ],
-        [ "caniuse-db", "1.0.30001474" ],
+        [ "caniuse-db", "1.0.30001476" ],
         [ "lodash.memoize", "4.1.2" ],
         [ "lodash.uniq", "4.5.0" ]
       ]
@@ -1602,11 +1602,11 @@
       ]
     },
     "eslint": {
-      "8.37.0": [
+      "8.38.0": [
         [ "@eslint-community/eslint-utils", "4.4.0" ],
         [ "@eslint-community/regexpp", "4.5.0" ],
         [ "@eslint/eslintrc", "2.0.2" ],
-        [ "@eslint/js", "8.37.0" ],
+        [ "@eslint/js", "8.38.0" ],
         [ "@humanwhocodes/config-array", "0.11.8" ],
         [ "@humanwhocodes/module-importer", "1.0.1" ],
         [ "@nodelib/fs.walk", "1.2.8" ],
@@ -1798,7 +1798,7 @@
         [ "@eslint-community/eslint-utils", "4.4.0" ],
         [ "@eslint-community/regexpp", "4.5.0" ],
         [ "@eslint/eslintrc", "2.0.2" ],
-        [ "@eslint/js", "8.37.0" ],
+        [ "@eslint/js", "8.38.0" ],
         [ "@humanwhocodes/config-array", "0.11.8" ],
         [ "@humanwhocodes/module-importer", "1.0.1" ],
         [ "@humanwhocodes/object-schema", "1.2.1" ],
@@ -1981,7 +1981,7 @@
         [ "camelcase", "2.1.1" ],
         [ "camelcase-keys", "2.1.0" ],
         [ "caniuse-api", "1.6.1" ],
-        [ "caniuse-db", "1.0.30001474" ],
+        [ "caniuse-db", "1.0.30001476" ],
         [ "caseless", "0.12.0" ],
         [ "center-align", "0.1.3" ],
         [ "chain-function", "1.0.1" ],
@@ -2100,7 +2100,7 @@
         [ "es6-templates", "0.2.3" ],
         [ "escape-html", "1.0.3" ],
         [ "escape-string-regexp", "1.0.5" ],
-        [ "eslint", "8.37.0" ],
+        [ "eslint", "8.38.0" ],
         [ "eslint-config-google", "0.14.0" ],
         [ "eslint-plugin-react", "7.32.2" ],
         [ "eslint-scope", "5.1.1" ],
@@ -5200,10 +5200,10 @@
       }
     },
     "@eslint/js": {
-      "8.37.0": {
-        "hash": "sha512-x5vzdtOOGgFVDCUs81QRB2+liax8rFg3+7hqM+QhBG0/G3F1ZsoYl97UrqgHgQ9KKT7G6c4V+aTUCgu/n22v1A==",
+      "8.38.0": {
+        "hash": "sha512-IoD2MfUnOV58ghIHCiil01PcohxjbYR/qCxsoC+xNgUwh1EY8jOOrYmu3d3a71+tJJ23uscEV4X2HJWMsPJu4g==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@eslint/js/-/js-8.37.0.tgz"
+        "url": "https://registry.npmjs.org/@eslint/js/-/js-8.38.0.tgz"
       }
     },
     "@humanwhocodes/config-array": {
@@ -6591,10 +6591,10 @@
       }
     },
     "caniuse-db": {
-      "1.0.30001474": {
-        "hash": "sha512-XbTs9Gt0asCiETyJCMFwy/cp8qT1TPpuo3itbqd566MykpnDZoIX4swxwF8nk1fS9mZbTUtagV4NOg4ndf697A==",
+      "1.0.30001476": {
+        "hash": "sha512-j/wGwLPJvse3AUvasDYLufVFqRpsHg3CaZeRzC/tCRb7fMD7Fn2CYGS1r+qbcraSX8yEOysV0kvbVPlG3ZcOVQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/caniuse-db/-/caniuse-db-1.0.30001474.tgz"
+        "url": "https://registry.npmjs.org/caniuse-db/-/caniuse-db-1.0.30001476.tgz"
       }
     },
     "caseless": {
@@ -7519,10 +7519,10 @@
       }
     },
     "eslint": {
-      "8.37.0": {
-        "hash": "sha512-NU3Ps9nI05GUoVMxcZx1J8CNR6xOvUT4jAUMH5+z8lpp3aEdPVCImKw6PWG4PY+Vfkpr+jvMpxs/qoE7wq0sPw==",
+      "8.38.0": {
+        "hash": "sha512-pIdsD2jwlUGf/U38Jv97t8lq6HpaU/G9NKbYmpWpZGw3LdTNhZLbJePqxOXGB5+JEKfOPU/XLxYxFh03nr1KTg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/eslint/-/eslint-8.37.0.tgz"
+        "url": "https://registry.npmjs.org/eslint/-/eslint-8.38.0.tgz"
       }
     },
     "eslint-config-google": {
