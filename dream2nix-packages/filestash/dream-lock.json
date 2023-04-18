@@ -2596,7 +2596,7 @@
         [ "warning", "3.0.0" ],
         [ "watchpack", "1.7.5" ],
         [ "watchpack-chokidar2", "2.0.1" ],
-        [ "wavesurfer.js", "1.4.0" ],
+        [ "wavesurfer.js", "6.6.3" ],
         [ "webpack", "2.7.0" ],
         [ "webpack-bundle-analyzer", "3.9.0" ],
         [ "webpack-sources", "1.4.3" ],
@@ -11566,10 +11566,10 @@
       }
     },
     "wavesurfer.js": {
-      "1.4.0": {
-        "hash": "sha512-NAouFH8jm8kmNRYUaDWgy0Y0hD2Qs2LqxZGWOGpGcfkLCSLoNKplJ2KHmPtTOLx5gtOTR6qnWtiL03i01gDqOg==",
+      "6.6.3": {
+        "hash": "sha512-XqUOXe8+SOTe8uKCHaqW0vJ5etCCQvq/NgaPycn9HAX/nUi+2zoWD+w9i7H5vBT9UCDNawOia+vS5Ct3kZGQzA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/wavesurfer.js/-/wavesurfer.js-1.4.0.tgz"
+        "url": "https://registry.npmjs.org/wavesurfer.js/-/wavesurfer.js-6.6.3.tgz"
       }
     },
     "webpack": {
