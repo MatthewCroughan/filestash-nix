@@ -1504,7 +1504,7 @@
         [ "object-inspect", "1.12.3" ],
         [ "object-keys", "1.1.1" ],
         [ "object.assign", "4.1.4" ],
-        [ "regexp.prototype.flags", "1.4.3" ],
+        [ "regexp.prototype.flags", "1.5.0" ],
         [ "safe-regex-test", "1.0.0" ],
         [ "string.prototype.trim", "1.2.7" ],
         [ "string.prototype.trimend", "1.0.6" ],
@@ -2442,7 +2442,7 @@
         [ "regenerator-runtime", "0.10.5" ],
         [ "regenerator-transform", "0.10.1" ],
         [ "regex-not", "1.0.2" ],
-        [ "regexp.prototype.flags", "1.4.3" ],
+        [ "regexp.prototype.flags", "1.5.0" ],
         [ "regexpu-core", "2.0.0" ],
         [ "regjsgen", "0.2.0" ],
         [ "regjsparser", "0.1.5" ],
@@ -4187,7 +4187,7 @@
       ]
     },
     "regexp.prototype.flags": {
-      "1.4.3": [
+      "1.5.0": [
         [ "call-bind", "1.0.2" ],
         [ "define-properties", "1.2.0" ],
         [ "functions-have-names", "1.2.3" ]
@@ -4545,7 +4545,7 @@
         [ "get-intrinsic", "1.2.0" ],
         [ "has-symbols", "1.0.3" ],
         [ "internal-slot", "1.0.5" ],
-        [ "regexp.prototype.flags", "1.4.3" ],
+        [ "regexp.prototype.flags", "1.5.0" ],
         [ "side-channel", "1.0.4" ]
       ]
     },
@@ -10373,10 +10373,10 @@
       }
     },
     "regexp.prototype.flags": {
-      "1.4.3": {
-        "hash": "sha512-fjggEOO3slI6Wvgjwflkc4NFRCTZAu5CnNfBd5qOMYhWdn67nJBBu34/TkD++eeFmd8C9r9jfXJ27+nSiRkSUA==",
+      "1.5.0": {
+        "hash": "sha512-0SutC3pNudRKgquxGoRGIz946MZVHqbNfPjBdxeOhBrdgDKlRoXmYLQN9xRbrR09ZXWeGAdPuif7egofn6v5LA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/regexp.prototype.flags/-/regexp.prototype.flags-1.4.3.tgz"
+        "url": "https://registry.npmjs.org/regexp.prototype.flags/-/regexp.prototype.flags-1.5.0.tgz"
       }
     },
     "regexpu-core": {
