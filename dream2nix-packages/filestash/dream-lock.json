@@ -2604,7 +2604,7 @@
         [ "whet.extend", "0.9.9" ],
         [ "which", "2.0.2" ],
         [ "which-boxed-primitive", "1.0.2" ],
-        [ "which-module", "2.0.0" ],
+        [ "which-module", "2.0.1" ],
         [ "which-typed-array", "1.1.9" ],
         [ "wide-align", "1.1.5" ],
         [ "window-size", "0.1.0" ],
@@ -4948,7 +4948,7 @@
         [ "require-main-filename", "2.0.0" ],
         [ "set-blocking", "2.0.0" ],
         [ "string-width", "3.1.0" ],
-        [ "which-module", "2.0.0" ],
+        [ "which-module", "2.0.1" ],
         [ "y18n", "4.0.3" ],
         [ "yargs-parser", "13.1.2" ]
       ],
@@ -11647,10 +11647,10 @@
         "type": "http",
         "url": "https://registry.npmjs.org/which-module/-/which-module-1.0.0.tgz"
       },
-      "2.0.0": {
-        "hash": "sha512-B+enWhmw6cjfVC7kS8Pj9pCrKSc5txArRyaYGe088shv/FGWH+0Rjx/xPgtsWfsUtS27FkP697E4DDhgrgoc0Q==",
+      "2.0.1": {
+        "hash": "sha512-iBdZ57RDvnOR9AGBhML2vFZf7h8vmBjhoaZqODJBFWHVtKkDmKuHai3cx5PgVMrX5YDNp27AofYbAwctSS+vhQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/which-module/-/which-module-2.0.0.tgz"
+        "url": "https://registry.npmjs.org/which-module/-/which-module-2.0.1.tgz"
       }
     },
     "which-typed-array": {
