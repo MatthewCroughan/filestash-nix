@@ -2426,7 +2426,6 @@
         [ "react-pdf", "5.3.2" ],
         [ "react-router", "5.3.4" ],
         [ "react-router-dom", "5.3.4" ],
-        [ "react-selectable", "0.0.0-rc.7e245666" ],
         [ "react-sticky", "6.0.3" ],
         [ "react-transition-group", "1.2.1" ],
         [ "read-pkg", "1.1.0" ],
@@ -10253,13 +10252,6 @@
         "hash": "sha512-m4EqFMHv/Ih4kpcBCONHbkT68KoAeHN4p3lAGoNryfHi0dMy0kCzEZakiKRsvg5wHZ/JLrLW8o8KomWiz/qbYQ==",
         "type": "http",
         "url": "https://registry.npmjs.org/react-router-dom/-/react-router-dom-5.3.4.tgz"
-      }
-    },
-    "react-selectable": {
-      "0.0.0-rc.7e245666": {
-        "rev": "7e2456668bf3e8046271c6795f24ee33c009bdfb",
-        "type": "git",
-        "url": "https://github.com/mickael-kerjean/react-selectable.git#7e2456668bf3e8046271c6795f24ee33c009bdfb"
       }
     },
     "react-sticky": {
