@@ -1954,7 +1954,7 @@
         [ "co", "4.6.0" ],
         [ "coa", "1.0.4" ],
         [ "code-point-at", "1.1.0" ],
-        [ "codemirror", "5.65.12" ],
+        [ "codemirror", "5.65.13" ],
         [ "collection-visit", "1.0.0" ],
         [ "color", "0.11.4" ],
         [ "color-convert", "1.9.3" ],
@@ -6531,10 +6531,10 @@
       }
     },
     "codemirror": {
-      "5.65.12": {
-        "hash": "sha512-z2jlHBocElRnPYysN2HAuhXbO3DNB0bcSKmNz3hcWR2Js2Dkhc1bEOxG93Z3DeUrnm+qx56XOY5wQmbP5KY0sw==",
+      "5.65.13": {
+        "hash": "sha512-SVWEzKXmbHmTQQWaz03Shrh4nybG0wXx2MEu3FO4ezbPW8IbnZEd5iGHGEffSUaitKYa3i+pHpBsSvw8sPHtzg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/codemirror/-/codemirror-5.65.12.tgz"
+        "url": "https://registry.npmjs.org/codemirror/-/codemirror-5.65.13.tgz"
       }
     },
     "collection-visit": {
