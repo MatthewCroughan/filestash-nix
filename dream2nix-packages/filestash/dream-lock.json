@@ -1562,7 +1562,7 @@
     "eslint": {
       "8.39.0": [
         [ "@eslint-community/eslint-utils", "4.4.0" ],
-        [ "@eslint-community/regexpp", "4.5.0" ],
+        [ "@eslint-community/regexpp", "4.5.1" ],
         [ "@eslint/eslintrc", "2.0.2" ],
         [ "@eslint/js", "8.39.0" ],
         [ "@humanwhocodes/config-array", "0.11.8" ],
@@ -1754,7 +1754,7 @@
         [ "@babel/eslint-parser", "7.21.3" ],
         [ "@babel/runtime", "7.21.5" ],
         [ "@eslint-community/eslint-utils", "4.4.0" ],
-        [ "@eslint-community/regexpp", "4.5.0" ],
+        [ "@eslint-community/regexpp", "4.5.1" ],
         [ "@eslint/eslintrc", "2.0.2" ],
         [ "@eslint/js", "8.39.0" ],
         [ "@humanwhocodes/config-array", "0.11.8" ],
@@ -5006,10 +5006,10 @@
       }
     },
     "@eslint-community/regexpp": {
-      "4.5.0": {
-        "hash": "sha512-vITaYzIcNmjn5tF5uxcZ/ft7/RXGrMUIS9HalWckEOF6ESiwXKoMzAQf2UW0aVd6rnOeExTJVd5hmWXucBKGXQ==",
+      "4.5.1": {
+        "hash": "sha512-Z5ba73P98O1KUYCCJTUeVpja9RcGoMdncZ6T49FCUl2lN38JtCJ+3WgIDBv0AuY4WChU5PmtJmOCTlN6FZTFKQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@eslint-community/regexpp/-/regexpp-4.5.0.tgz"
+        "url": "https://registry.npmjs.org/@eslint-community/regexpp/-/regexpp-4.5.1.tgz"
       }
     },
     "@eslint/eslintrc": {
