@@ -1457,7 +1457,7 @@
       "0.3.93": [
         [ "@types/localforage", "0.0.34" ],
         [ "@xmldom/xmldom", "0.7.10" ],
-        [ "core-js", "3.30.1" ],
+        [ "core-js", "3.30.2" ],
         [ "event-emitter", "0.3.5" ],
         [ "jszip", "3.10.1" ],
         [ "localforage", "1.10.0" ],
@@ -6743,10 +6743,10 @@
         "type": "http",
         "url": "https://registry.npmjs.org/core-js/-/core-js-2.6.12.tgz"
       },
-      "3.30.1": {
-        "hash": "sha512-ZNS5nbiSwDTq4hFosEDqm65izl2CWmLz0hARJMyNQBgkUZMIF51cQiMvIQKA6hvuaeWxQDP3hEedM1JZIgTldQ==",
+      "3.30.2": {
+        "hash": "sha512-uBJiDmwqsbJCWHAwjrx3cvjbMXP7xD72Dmsn5LOJpiRmE3WbBbN5rCqQ2Qh6Ek6/eOrjlWngEynBWo4VxerQhg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/core-js/-/core-js-3.30.1.tgz"
+        "url": "https://registry.npmjs.org/core-js/-/core-js-3.30.2.tgz"
       }
     },
     "core-util-is": {
