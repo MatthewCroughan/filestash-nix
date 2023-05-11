@@ -2143,7 +2143,7 @@
         [ "hash.js", "1.1.7" ],
         [ "he", "1.2.0" ],
         [ "history", "4.10.1" ],
-        [ "hls.js", "1.4.2" ],
+        [ "hls.js", "1.4.3" ],
         [ "hmac-drbg", "1.0.1" ],
         [ "hoist-non-react-statics", "2.5.5" ],
         [ "home-or-tmp", "2.0.0" ],
@@ -8034,10 +8034,10 @@
       }
     },
     "hls.js": {
-      "1.4.2": {
-        "hash": "sha512-+MPySxF0WVMj/uzj+LDtNFSU93X1+VbjLLixk2xah6Sf4LqU+qC02MjZVF/yvb1Cg9Gjor1g8K33K9b9etqJ/Q==",
+      "1.4.3": {
+        "hash": "sha512-EE1MjIYDNO+ynbmCpAWfhUwQpyG8gUcKKuGDGgYgfRmW/g+inQUQ8sVVVY5WZaCxEGxDMGLbXhXGepkmDIMvdw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/hls.js/-/hls.js-1.4.2.tgz"
+        "url": "https://registry.npmjs.org/hls.js/-/hls.js-1.4.3.tgz"
       }
     },
     "hmac-drbg": {
