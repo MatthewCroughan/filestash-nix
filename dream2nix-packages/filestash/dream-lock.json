@@ -927,7 +927,7 @@
     "browserslist": {
       "1.7.7": [
         [ "caniuse-db", "1.0.30001487" ],
-        [ "electron-to-chromium", "1.4.396" ]
+        [ "electron-to-chromium", "1.4.397" ]
       ]
     },
     "buffer": {
@@ -2030,7 +2030,7 @@
         [ "ecc-jsbn", "0.1.2" ],
         [ "ee-first", "1.1.1" ],
         [ "ejs", "2.7.4" ],
-        [ "electron-to-chromium", "1.4.396" ],
+        [ "electron-to-chromium", "1.4.397" ],
         [ "elliptic", "6.5.4" ],
         [ "emoji-regex", "7.0.3" ],
         [ "emojis-list", "2.1.0" ],
@@ -2185,7 +2185,7 @@
         [ "is-boolean-object", "1.1.2" ],
         [ "is-buffer", "1.1.6" ],
         [ "is-callable", "1.2.7" ],
-        [ "is-core-module", "2.12.0" ],
+        [ "is-core-module", "2.12.1" ],
         [ "is-data-descriptor", "1.0.0" ],
         [ "is-date-object", "1.0.5" ],
         [ "is-descriptor", "1.0.2" ],
@@ -3060,7 +3060,7 @@
       ]
     },
     "is-core-module": {
-      "2.12.0": [
+      "2.12.1": [
         [ "has", "1.0.3" ]
       ]
     },
@@ -4247,12 +4247,12 @@
     },
     "resolve": {
       "1.22.2": [
-        [ "is-core-module", "2.12.0" ],
+        [ "is-core-module", "2.12.1" ],
         [ "path-parse", "1.0.7" ],
         [ "supports-preserve-symlinks-flag", "1.0.0" ]
       ],
       "2.0.0-next.4": [
-        [ "is-core-module", "2.12.0" ],
+        [ "is-core-module", "2.12.1" ],
         [ "path-parse", "1.0.7" ],
         [ "supports-preserve-symlinks-flag", "1.0.0" ]
       ]
@@ -7124,10 +7124,10 @@
       }
     },
     "electron-to-chromium": {
-      "1.4.396": {
-        "hash": "sha512-pqKTdqp/c5vsrc0xUPYXTDBo9ixZuGY8es4ZOjjd6HD6bFYbu5QA09VoW3fkY4LF1T0zYk86lN6bZnNlBuOpdQ==",
+      "1.4.397": {
+        "hash": "sha512-jwnPxhh350Q/aMatQia31KAIQdhEsYS0fFZ0BQQlN9tfvOEwShu6ZNwI4kL/xBabjcB/nTy6lSt17kNIluJZ8Q==",
         "type": "http",
-        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.396.tgz"
+        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.397.tgz"
       }
     },
     "elliptic": {
@@ -8359,10 +8359,10 @@
       }
     },
     "is-core-module": {
-      "2.12.0": {
-        "hash": "sha512-RECHCBCd/viahWmwj6enj19sKbHfJrddi/6cBDsNTKbNq0f7VeaUkBo60BqzvPqo/W54ChS62Z5qyun7cfOMqQ==",
+      "2.12.1": {
+        "hash": "sha512-Q4ZuBAe2FUsKtyQJoQHlvP8OvBERxO3jEmy1I7hcRXcJBGGHFh/aJBswbXuS9sgrDH2QUO8ilkwNPHvHMd8clg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/is-core-module/-/is-core-module-2.12.0.tgz"
+        "url": "https://registry.npmjs.org/is-core-module/-/is-core-module-2.12.1.tgz"
       }
     },
     "is-data-descriptor": {
