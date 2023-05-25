@@ -1763,7 +1763,7 @@
         [ "@nodelib/fs.scandir", "2.1.5" ],
         [ "@nodelib/fs.stat", "2.0.5" ],
         [ "@nodelib/fs.walk", "1.2.8" ],
-        [ "@types/json-schema", "7.0.11" ],
+        [ "@types/json-schema", "7.0.12" ],
         [ "@types/localforage", "0.0.34" ],
         [ "@types/prop-types", "15.7.5" ],
         [ "@types/react", "18.2.7" ],
@@ -4349,7 +4349,7 @@
         [ "ajv-keywords", "3.5.2" ]
       ],
       "3.1.2": [
-        [ "@types/json-schema", "7.0.11" ],
+        [ "@types/json-schema", "7.0.12" ],
         [ "ajv", "6.12.6" ],
         [ "ajv-keywords", "3.5.2" ]
       ]
@@ -5075,10 +5075,10 @@
       }
     },
     "@types/json-schema": {
-      "7.0.11": {
-        "hash": "sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ==",
+      "7.0.12": {
+        "hash": "sha512-Hr5Jfhc9eYOQNPYO5WLDq/n4jqijdHNlDXjuAQkkt+mWdQR+XJToOHrsD4cPaMXpn6KO7y2+wM8AZEs8VpBLVA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@types/json-schema/-/json-schema-7.0.11.tgz"
+        "url": "https://registry.npmjs.org/@types/json-schema/-/json-schema-7.0.12.tgz"
       }
     },
     "@types/localforage": {
