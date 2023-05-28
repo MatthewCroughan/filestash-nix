@@ -1996,7 +1996,7 @@
         [ "csso", "2.3.2" ],
         [ "csstype", "3.1.2" ],
         [ "currently-unhandled", "0.4.1" ],
-        [ "cyclist", "1.0.1" ],
+        [ "cyclist", "1.0.2" ],
         [ "d", "1.0.1" ],
         [ "dashdash", "1.14.1" ],
         [ "debug", "2.6.9" ],
@@ -3653,7 +3653,7 @@
     },
     "parallel-transform": {
       "1.2.0": [
-        [ "cyclist", "1.0.1" ],
+        [ "cyclist", "1.0.2" ],
         [ "inherits", "2.0.4" ],
         [ "readable-stream", "2.3.8" ]
       ]
@@ -6871,10 +6871,10 @@
       }
     },
     "cyclist": {
-      "1.0.1": {
-        "hash": "sha512-NJGVKPS81XejHcLhaLJS7plab0fK3slPh11mESeeDq2W4ZI5kUKK/LRRdVDvjJseojbPB7ZwjnyOybg3Igea/A==",
+      "1.0.2": {
+        "hash": "sha512-0sVXIohTfLqVIW3kb/0n6IiWF3Ifj5nm2XaSrLq2DI6fKIGa2fYAZdk917rUneaeLVpYfFcyXE2ft0fe3remsA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/cyclist/-/cyclist-1.0.1.tgz"
+        "url": "https://registry.npmjs.org/cyclist/-/cyclist-1.0.2.tgz"
       }
     },
     "d": {
