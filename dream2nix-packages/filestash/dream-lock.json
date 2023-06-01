@@ -99,7 +99,7 @@
       ]
     },
     "@humanwhocodes/config-array": {
-      "0.11.9": [
+      "0.11.10": [
         [ "@humanwhocodes/object-schema", "1.2.1" ],
         [ "debug", "4.3.4" ],
         [ "minimatch", "3.1.2" ]
@@ -1565,7 +1565,7 @@
         [ "@eslint-community/regexpp", "4.5.1" ],
         [ "@eslint/eslintrc", "2.0.3" ],
         [ "@eslint/js", "8.41.0" ],
-        [ "@humanwhocodes/config-array", "0.11.9" ],
+        [ "@humanwhocodes/config-array", "0.11.10" ],
         [ "@humanwhocodes/module-importer", "1.0.1" ],
         [ "@nodelib/fs.walk", "1.2.8" ],
         [ "ajv", "6.12.6" ],
@@ -1756,7 +1756,7 @@
         [ "@eslint-community/regexpp", "4.5.1" ],
         [ "@eslint/eslintrc", "2.0.3" ],
         [ "@eslint/js", "8.41.0" ],
-        [ "@humanwhocodes/config-array", "0.11.9" ],
+        [ "@humanwhocodes/config-array", "0.11.10" ],
         [ "@humanwhocodes/module-importer", "1.0.1" ],
         [ "@humanwhocodes/object-schema", "1.2.1" ],
         [ "@nicolo-ribaudo/eslint-scope-5-internals", "5.1.1-v1" ],
@@ -5026,10 +5026,10 @@
       }
     },
     "@humanwhocodes/config-array": {
-      "0.11.9": {
-        "hash": "sha512-TtlcCXarBltllJ++jCdnSjzihec7ukhesOAeFWRgCTcEHNVsN1o4nLxq/6JnpYJSUV1/w9v93XkMqQpdX5Zb6w==",
+      "0.11.10": {
+        "hash": "sha512-KVVjQmNUepDVGXNuoRRdmmEjruj0KfiGSbS8LVc12LMsWDQzRXJ0qdhN8L8uUigKpfEHRhlaQFY0ib1tnUbNeQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@humanwhocodes/config-array/-/config-array-0.11.9.tgz"
+        "url": "https://registry.npmjs.org/@humanwhocodes/config-array/-/config-array-0.11.10.tgz"
       }
     },
     "@humanwhocodes/module-importer": {
