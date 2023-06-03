@@ -1560,11 +1560,11 @@
       ]
     },
     "eslint": {
-      "8.41.0": [
+      "8.42.0": [
         [ "@eslint-community/eslint-utils", "4.4.0" ],
         [ "@eslint-community/regexpp", "4.5.1" ],
         [ "@eslint/eslintrc", "2.0.3" ],
-        [ "@eslint/js", "8.41.0" ],
+        [ "@eslint/js", "8.42.0" ],
         [ "@humanwhocodes/config-array", "0.11.10" ],
         [ "@humanwhocodes/module-importer", "1.0.1" ],
         [ "@nodelib/fs.walk", "1.2.8" ],
@@ -1755,7 +1755,7 @@
         [ "@eslint-community/eslint-utils", "4.4.0" ],
         [ "@eslint-community/regexpp", "4.5.1" ],
         [ "@eslint/eslintrc", "2.0.3" ],
-        [ "@eslint/js", "8.41.0" ],
+        [ "@eslint/js", "8.42.0" ],
         [ "@humanwhocodes/config-array", "0.11.10" ],
         [ "@humanwhocodes/module-importer", "1.0.1" ],
         [ "@humanwhocodes/object-schema", "1.2.1" ],
@@ -2051,7 +2051,7 @@
         [ "es6-templates", "0.2.3" ],
         [ "escape-html", "1.0.3" ],
         [ "escape-string-regexp", "1.0.5" ],
-        [ "eslint", "8.41.0" ],
+        [ "eslint", "8.42.0" ],
         [ "eslint-config-google", "0.14.0" ],
         [ "eslint-plugin-react", "7.32.2" ],
         [ "eslint-scope", "5.1.1" ],
@@ -5019,10 +5019,10 @@
       }
     },
     "@eslint/js": {
-      "8.41.0": {
-        "hash": "sha512-LxcyMGxwmTh2lY9FwHPGWOHmYFCZvbrFCBZL4FzSSsxsRPuhrYUg/49/0KDfW8tnIEaEHtfmn6+NPN+1DqaNmA==",
+      "8.42.0": {
+        "hash": "sha512-6SWlXpWU5AvId8Ac7zjzmIOqMOba/JWY8XZ4A7q7Gn1Vlfg/SFFIlrtHXt9nPn4op9ZPAkl91Jao+QQv3r/ukw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@eslint/js/-/js-8.41.0.tgz"
+        "url": "https://registry.npmjs.org/@eslint/js/-/js-8.42.0.tgz"
       }
     },
     "@humanwhocodes/config-array": {
@@ -7286,10 +7286,10 @@
       }
     },
     "eslint": {
-      "8.41.0": {
-        "hash": "sha512-WQDQpzGBOP5IrXPo4Hc0814r4/v2rrIsB0rhT7jtunIalgg6gYXWhRMOejVO8yH21T/FGaxjmFjBMNqcIlmH1Q==",
+      "8.42.0": {
+        "hash": "sha512-ulg9Ms6E1WPf67PHaEY4/6E2tEn5/f7FXGzr3t9cBMugOmf1INYvuUwwh1aXQN4MfJ6a5K2iNwP3w4AColvI9A==",
         "type": "http",
-        "url": "https://registry.npmjs.org/eslint/-/eslint-8.41.0.tgz"
+        "url": "https://registry.npmjs.org/eslint/-/eslint-8.42.0.tgz"
       }
     },
     "eslint-config-google": {
