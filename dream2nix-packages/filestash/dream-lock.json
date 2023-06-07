@@ -128,7 +128,7 @@
       ]
     },
     "@types/react": {
-      "18.2.8": [
+      "18.2.9": [
         [ "@types/prop-types", "15.7.5" ],
         [ "@types/scheduler", "0.16.3" ],
         [ "csstype", "3.1.2" ]
@@ -927,7 +927,7 @@
     "browserslist": {
       "1.7.7": [
         [ "caniuse-db", "1.0.30001495" ],
-        [ "electron-to-chromium", "1.4.424" ]
+        [ "electron-to-chromium", "1.4.425" ]
       ]
     },
     "buffer": {
@@ -1766,7 +1766,7 @@
         [ "@types/json-schema", "7.0.12" ],
         [ "@types/localforage", "0.0.34" ],
         [ "@types/prop-types", "15.7.5" ],
-        [ "@types/react", "18.2.8" ],
+        [ "@types/react", "18.2.9" ],
         [ "@types/scheduler", "0.16.3" ],
         [ "@xmldom/xmldom", "0.7.11" ],
         [ "abbrev", "1.1.1" ],
@@ -2029,7 +2029,7 @@
         [ "ecc-jsbn", "0.1.2" ],
         [ "ee-first", "1.1.1" ],
         [ "ejs", "2.7.4" ],
-        [ "electron-to-chromium", "1.4.424" ],
+        [ "electron-to-chromium", "1.4.425" ],
         [ "elliptic", "6.5.4" ],
         [ "emoji-regex", "7.0.3" ],
         [ "emojis-list", "2.1.0" ],
@@ -3334,7 +3334,7 @@
     },
     "merge-refs": {
       "1.2.1": [
-        [ "@types/react", "18.2.8" ]
+        [ "@types/react", "18.2.9" ]
       ]
     },
     "micromatch": {
@@ -5096,10 +5096,10 @@
       }
     },
     "@types/react": {
-      "18.2.8": {
-        "hash": "sha512-lTyWUNrd8ntVkqycEEplasWy2OxNlShj3zqS0LuB1ENUGis5HodmhM7DtCoUGbxj3VW/WsGA0DUhpG6XrM7gPA==",
+      "18.2.9": {
+        "hash": "sha512-pL3JAesUkF7PEQGxh5XOwdXGV907te6m1/Qe1ERJLgomojS6Ne790QiA7GUl434JEkFA2aAaB6qJ5z4e1zJn/w==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@types/react/-/react-18.2.8.tgz"
+        "url": "https://registry.npmjs.org/@types/react/-/react-18.2.9.tgz"
       }
     },
     "@types/scheduler": {
@@ -7122,10 +7122,10 @@
       }
     },
     "electron-to-chromium": {
-      "1.4.424": {
-        "hash": "sha512-KOfOIoEE0b3L0CTDgqS+NpokmcBdxpqLIPtp9PL0v5GAMZmZXa9uoUfWJdEy63MNy6jMvKHkBVUYY5DSuqqpdw==",
+      "1.4.425": {
+        "hash": "sha512-wv1NufHxu11zfDbY4fglYQApMswleE9FL/DSeyOyauVXDZ+Kco96JK/tPfBUaDqfRarYp2WH2hJ/5UnVywp9Jg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.424.tgz"
+        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.425.tgz"
       }
     },
     "elliptic": {
