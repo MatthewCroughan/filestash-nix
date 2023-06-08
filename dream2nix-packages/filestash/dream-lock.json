@@ -1745,7 +1745,7 @@
     "file-loader": {
       "6.2.0": [
         [ "loader-utils", "2.0.4" ],
-        [ "schema-utils", "3.1.2" ]
+        [ "schema-utils", "3.2.0" ]
       ]
     },
     "filestash": {
@@ -2474,7 +2474,7 @@
         [ "sass-variable-loader", "0.1.2" ],
         [ "sax", "1.2.4" ],
         [ "scheduler", "0.19.1" ],
-        [ "schema-utils", "3.1.2" ],
+        [ "schema-utils", "3.2.0" ],
         [ "scss-tokenizer", "0.2.3" ],
         [ "semver", "6.3.0" ],
         [ "send", "0.18.0" ],
@@ -4348,7 +4348,7 @@
         [ "ajv", "6.12.6" ],
         [ "ajv-keywords", "3.5.2" ]
       ],
-      "3.1.2": [
+      "3.2.0": [
         [ "@types/json-schema", "7.0.12" ],
         [ "ajv", "6.12.6" ],
         [ "ajv-keywords", "3.5.2" ]
@@ -10647,10 +10647,10 @@
         "type": "http",
         "url": "https://registry.npmjs.org/schema-utils/-/schema-utils-0.4.7.tgz"
       },
-      "3.1.2": {
-        "hash": "sha512-pvjEHOgWc9OWA/f/DE3ohBWTD6EleVLf7iFUkoSwAxttdBhB9QUebQgxER2kWueOvRJXPHNnyrvvh9eZINB8Eg==",
+      "3.2.0": {
+        "hash": "sha512-0zTyLGyDJYd/MBxG1AhJkKa6fpEBds4OQO2ut0w7OYG+ZGhGea09lijvzsqegYSik88zc7cUtIlnnO+/BvD6gQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/schema-utils/-/schema-utils-3.1.2.tgz"
+        "url": "https://registry.npmjs.org/schema-utils/-/schema-utils-3.2.0.tgz"
       }
     },
     "scss-tokenizer": {
