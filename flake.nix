@@ -28,6 +28,16 @@
           imports = [ ./nix/filestash-module.nix ];
           nixpkgs.overlays = [ self.overlay ];
         };
+        overlays = rec {
+          default = filestash;
+          filestash = final: prev:
+            {
+              filestash = final.callPackage ./pkgs/filestash {
+                inherit dream2nix filestash-src self;
+                pkgs = prev;
+              };
+            };
+        };
       };
       perSystem = { config, self', inputs', pkgs, system, ... }: {
         checks = {
