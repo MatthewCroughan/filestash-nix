@@ -18,7 +18,7 @@ let
     inherit pkgs;
     config.projectRoot = filestash-src;
     source = filestash-src;
-    settings = [ { subsystemInfo.nodejs = "14"; subsystemInfo.npmArgs = "--legacy-peer-deps"; } ];
+    settings = [ { subsystemInfo.nodejs = "18"; subsystemInfo.npmArgs = "--legacy-peer-deps"; } ];
     autoProjects = true;
   }).packages.${pkgs.hostPlatform.system}.filestash.resolve;
   frontend = ((dream2nix.lib.init { inherit pkgs; }).dream2nix-interface.makeOutputsForDreamLock {
